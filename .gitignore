@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+#Ignorando la conexión a la BD
+AppInternetBankingDW3C2021\API\Global.asax.cs
+
 # User-specific files
 *.rsuser
 *.suo
