@@ -1,4 +1,4 @@
-﻿<%@ Master Async="true" Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="AppWebInternetBanking.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="AppWebInternetBanking.SiteMaster" %>
 
 <!DOCTYPE html>
 

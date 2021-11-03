@@ -6,6 +6,9 @@
 #Ignorando la conexión a la BD
 AppInternetBankingDW3C2021\API\Global.asax.cs
 
+#Ignorando el correo con los credenciales de cada uno
+AppInternetBankingDW3C2021\AppWebInternetBanking\Models\Correo.cs
+
 # User-specific files
 *.rsuser
 *.suo

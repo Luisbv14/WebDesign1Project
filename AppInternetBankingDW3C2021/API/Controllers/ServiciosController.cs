@@ -37,20 +37,19 @@ namespace API.Controllers
         }
 
         // PUT: api/Servicios/5
-        [ResponseType(typeof(void))]
-        public IHttpActionResult PutServicio(int id, Servicio servicio)
+        [ResponseType(typeof(Servicio))]
+        public IHttpActionResult PutServicio(Servicio servicio)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != servicio.Codigo)
-            {
-                return BadRequest();
-            }
+
 
             db.Entry(servicio).State = EntityState.Modified;
+
+
 
             try
             {
@@ -58,7 +57,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ServicioExists(id))
+                if (!ServicioExists(servicio.Codigo))
                 {
                     return NotFound();
                 }
@@ -68,7 +67,9 @@ namespace API.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+
+
+            return Ok(servicio);
         }
 
         // POST: api/Servicios

@@ -29,7 +29,7 @@ namespace AppWebInternetBanking
 
                     usuario = await usuarioManager.Autenticar(loginRequest);
 
-                    if(usuario != null
+                    if(usuario != null)
                     {
                         Session["CodigoUsuario"] = usuario.Codigo;
                         Session["Identificacion"] = usuario.Identificacion;
