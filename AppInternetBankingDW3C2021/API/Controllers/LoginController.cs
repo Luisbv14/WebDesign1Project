@@ -26,12 +26,11 @@ namespace API.Controllers
             try
             {
                 using (SqlConnection sqlConnection =
-                    new SqlConnection(ConfigurationManager.ConnectionStrings["INTERNET_BANKING"].ConnectionString))
+                new SqlConnection(ConfigurationManager.ConnectionStrings["INTERNET_BANKING"].ConnectionString))
                 {
                     SqlCommand sqlCommand = new SqlCommand(@"SELECT Codigo, Identificacion, Nombre,
-                                                             Username, Password, Email, FechaNacimiento, Estado
-                                                            FROM Usuario Where Username = @Username and Password = @Password ", sqlConnection);
-
+Username, Password, Email, FechaNacimiento, Estado
+FROM Usuario Where Username = @Username and Password = @Password ", sqlConnection);
                     sqlCommand.Parameters.AddWithValue("@Username", loginRequest.Username);
                     sqlCommand.Parameters.AddWithValue("@Password", loginRequest.Password);
 
@@ -51,7 +50,7 @@ namespace API.Controllers
                         usuario.Estado = sqlDataReader.GetString(7);
 
                         var token =
-                            TokenGenerator.GenerateTokenJwt(usuario.Identificacion);
+                       TokenGenerator.GenerateTokenJwt(usuario.Identificacion);
                         usuario.Token = token;
                     }
 
@@ -71,4 +70,4 @@ namespace API.Controllers
         }
 
     }
-  }
+}

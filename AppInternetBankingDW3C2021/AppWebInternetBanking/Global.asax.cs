@@ -14,7 +14,7 @@ namespace AppWebInternetBanking
     {
         void Application_Start(object sender, EventArgs e)
         {
-            // Código que se ejecuta al iniciar la aplicación
+            // Code qui s’exécute au démarrage de l’application
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
@@ -24,8 +24,6 @@ namespace AppWebInternetBanking
         {
             Session["LastError"] = ""; //initialize the session
         }
-
-
 
         protected void Application_Error(object sender, EventArgs e)
         {

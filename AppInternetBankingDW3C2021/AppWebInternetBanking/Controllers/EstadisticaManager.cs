@@ -13,33 +13,21 @@ namespace AppWebInternetBanking.Controllers
     {
         string UrlBase = "http://localhost:49220/api/Estadistica/";
 
-
-
         public async Task<Estadistica> Ingresar(Estadistica estadistica)
         {
             HttpClient httpClient = new HttpClient();
 
-
-
             var response = await httpClient.PostAsync(UrlBase,
             new StringContent(JsonConvert.SerializeObject(estadistica), Encoding.UTF8, "application/json"));
 
-
-
             return JsonConvert.DeserializeObject<Estadistica>(await response.Content.ReadAsStringAsync());
         }
-
-
 
         public async Task<IEnumerable<Estadistica>> ObtenerEstadisticas()
         {
             HttpClient httpClient = new HttpClient();
 
-
-
             var response = await httpClient.GetStringAsync(UrlBase);
-
-
 
             return JsonConvert.DeserializeObject<IEnumerable<Estadistica>>(response);
         }

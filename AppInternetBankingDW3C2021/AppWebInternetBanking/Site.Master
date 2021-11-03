@@ -39,54 +39,61 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <nav class="navbar navbar-inverse">
-<div class="container-fluid">
-<div class="navbar-header">
-<a class="navbar-brand" href="#">Internet Banking ULACIT</a>
-</div>
-<ul class="nav navbar-nav">
-<li class="active"><a href="#">Menu principal</a></li>
-<li class="dropdown">
-<a class="dropdown-toggle" data-toggle="dropdown" href="#">Mantenimiento
-<span class="caret"></span></a>
-<ul class="dropdown-menu">
-<li><a href="/Views/frmCuenta.aspx">Cuentas</a></li>
-<li><a href="/Views/frmServicio.aspx">Servicios</a></li>
-<li><a href="/Views/frmMoneda.aspx">Monedas</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a class="dropdown-toggle" data-toggle="dropdown" href="#">Procesos
-<span class="caret"></span></a>
-<ul class="dropdown-menu">
-<li><a href="#">Transferencias</a></li>
-<li><a href="#">Pagos</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a class="dropdown-toggle" data-toggle="dropdown" href="#">Reportes
-<span class="caret"></span></a>
-<ul class="dropdown-menu">
-<li><a href="#">Transferencias</a></li>
-<li><a href="#">Pagos</a></li>
-</ul>
-</li>
-<li class="dropdown">
-<a class="dropdown-toggle" data-toggle="dropdown" href="#">Bitacoras
-<span class="caret"></span></a>
-<ul class="dropdown-menu">
-<li><a href="/Views/frmReporteError.aspx">Errores</a></li>
-<li><a href="/Views/frmReporteSesion.aspx">Sesiones</a></li>
-<li><a href="/Views/frmReporteEstadistica.aspx">Estadisticas</a></li>
-</ul>
-</li>
-<li>
-<asp:LinkButton ID="lnkCerrarSesion" OnClick="lnkCerrarSesion_Click" runat="server">Cerrar sesion</asp:LinkButton></li>
-</ul>
-</div>
-</nav>
-
-
+       <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Internet Banking ULACIT</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Menu principal</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mantenimiento
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/Views/frmCuenta.aspx">Cuentas</a></li>
+                  <li><a href="/Views/frmServicio.aspx">Servicios</a></li>
+                  <li><a href="/Views/frmMoneda.aspx">Monedas</a></li>
+                    
+                    <li><a href="/Views/frmPrestamo.aspx">Prestamo</a></li>
+                    <li><a href="/Views/frmSobre.aspx">Sobre</a></li>
+                    <li><a href="/Views/frmMarchamo.aspx">Marchamo</a></li>
+                    <li><a href="/Views/frmFondoInversion.aspx">Fondo de Inversion</a></li>
+                    <li><a href="/Views/frmSinpeMovil.aspx">SinpeMovil</a></li>
+                    <li><a href="/Views/frmSolicitudTarjeta.aspx">Solicitud Tarjeta</a></li>
+                    <li><a href="/Views/frmReporte.aspx">Reporte</a></li>
+                    <li><a href="/Views/frmSolicitudCita.aspx">Solicitud Cita</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Procesos
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Transferencias</a></li>
+                  <li><a href="#">Pagos</a></li>
+                </ul>
+              </li>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reportes
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Transferencias</a></li>
+                  <li><a href="#">Pagos</a></li>
+                </ul>
+              </li>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bitacoras
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/Views/frmReporteError.aspx">Errores</a></li>
+                  <li><a href="/Views/frmReporteSesion.aspx">Sesiones</a></li>
+                    <li><a href="/Views/frmReporteEstadistica.aspx">Estadisticas</a></li>
+                </ul>
+              </li>
+              <li>
+                  <asp:LinkButton ID="lnkCerrarSesion" OnClick="lnkCerrarSesion_Click" runat="server">Cerrar sesion</asp:LinkButton></li>
+            </ul>
+          </div>
+        </nav>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>

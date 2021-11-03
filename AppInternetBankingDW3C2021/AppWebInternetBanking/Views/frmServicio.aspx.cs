@@ -15,15 +15,16 @@ namespace AppWebInternetBanking.Views
     {
         IEnumerable<Servicio> servicios = new ObservableCollection<Servicio>();
         ServicioManager servicioManager = new ServicioManager();
+        static string _codigo = string.Empty;
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack)
+            if (!IsPostBack)
             {
                 if (Session["CodigoUsuario"] == null)
                     Response.Redirect("~/Login.aspx");
-            } else
-            {
-                InicializarControles();
+                else
+                    InicializarControles();
             }
         }
 
@@ -34,7 +35,8 @@ namespace AppWebInternetBanking.Views
                 servicios = await servicioManager.ObtenerServicios(Session["Token"].ToString());
                 gvServicios.DataSource = servicios.ToList();
                 gvServicios.DataBind();
-            } catch (Exception)
+            }
+            catch (Exception)
             {
                 lblStatus.Text = "Hubo un error al cargar la lista de servicios";
                 lblStatus.Visible = true;
@@ -43,7 +45,7 @@ namespace AppWebInternetBanking.Views
 
         protected async void btnAceptarMant_Click(object sender, EventArgs e)
         {
-            if(string.IsNullOrEmpty(txtCodigoMant.Text)) //Si esto es así, está intersertando
+            if (string.IsNullOrEmpty(txtCodigoMant.Text)) //insertar
             {
                 Servicio servicio = new Servicio()
                 {
@@ -53,42 +55,60 @@ namespace AppWebInternetBanking.Views
 
                 Servicio servicioIngresado = await servicioManager.Ingresar(servicio, Session["Token"].ToString());
 
-                if(!string.IsNullOrEmpty(servicioIngresado.Descripcion))
+                if (!string.IsNullOrEmpty(servicioIngresado.Descripcion))
                 {
-                    lblResultado.Text = "Servicio ingresado con éxito";
+                    lblResultado.Text = "Servicio ingresado con exito";
                     lblResultado.Visible = true;
                     lblResultado.ForeColor = Color.Green;
                     btnAceptarMant.Visible = false;
                     InicializarControles();
 
                     Correo correo = new Correo();
-                    correo.Enviar("Nuevo servicio incluido", servicioIngresado.Descripcion, "svillagra07@gmail.com", Convert.ToInt32(Session["CodigoUsuario"].ToString()));
+                    correo.Enviar("Nuevo servicio incluido", servicioIngresado.Descripcion, "alopezmoreno.22@gmail.com",
+                        Convert.ToInt32(Session["CodigoUsuario"].ToString()));
+
+                    ScriptManager.RegisterStartupScript(this,
+                this.GetType(), "LaunchServerSide", "$(function() {openModalMantenimiento(); } );", true);
                 }
-            } else // modificar
+                else
+                {
+                    lblResultado.Text = "Hubo un error al efectuar la operacion";
+                    lblResultado.Visible = true;
+                    lblResultado.ForeColor = Color.Maroon;
+                }
+            }
+            else // modificar
             {
                 Servicio servicio = new Servicio()
                 {
+                    Codigo = Convert.ToInt32(txtCodigoMant.Text),
                     Descripcion = txtDescripcion.Text,
                     Estado = ddlEstadoMant.SelectedValue
                 };
 
-                Servicio servicioActualizado = await servicioManager.Ingresar(servicio, Session["Token"].ToString());
+                Servicio servicioActualizado = await servicioManager.Actualizar(servicio, Session["Token"].ToString());
 
                 if (!string.IsNullOrEmpty(servicioActualizado.Descripcion))
                 {
-                    lblResultado.Text = "Servicio ingresado con éxito";
+                    lblResultado.Text = "Servicio actualizado con exito";
                     lblResultado.Visible = true;
                     lblResultado.ForeColor = Color.Green;
                     btnAceptarMant.Visible = false;
                     InicializarControles();
 
                     Correo correo = new Correo();
-                    correo.Enviar("Nuevo servicio incluido", servicioActualizado.Descripcion, "svillagra07@gmail.com", Convert.ToInt32(Session["CodigoUsuario"].ToString()));
+                    correo.Enviar("Servicio actualizado con exito", servicioActualizado.Descripcion, "alopezmoreno.22@gmail.com",
+                        Convert.ToInt32(Session["CodigoUsuario"].ToString()));
+
+                    ScriptManager.RegisterStartupScript(this,
+                this.GetType(), "LaunchServerSide", "$(function() {openModalMantenimiento(); } );", true);
                 }
-                /*
-                lblResultado.Text = "Hubo un error al efectuar la operación";
-                lblResultado.Visible = true;
-                lblResultado.ForeColor = Color.Maroon; */
+                else
+                {
+                    lblResultado.Text = "Hubo un error al efectuar la operacion";
+                    lblResultado.Visible = true;
+                    lblResultado.ForeColor = Color.Maroon;
+                }
             }
         }
 
@@ -101,11 +121,10 @@ namespace AppWebInternetBanking.Views
         {
             try
             {
-                
-                Servicio servicio = await servicioManager.Eliminar(lblCodigoEliminar.Text, Session["Token"].ToString());
+
+                Servicio servicio = await servicioManager.Eliminar(_codigo, Session["Token"].ToString());
                 if (!string.IsNullOrEmpty(servicio.Descripcion))
                 {
-                    lblCodigoEliminar.Text = string.Empty;
                     ltrModalMensaje.Text = "Servicio eliminado";
                     btnAceptarModal.Visible = false;
                     ScriptManager.RegisterStartupScript(this, this.GetType(), "LaunchServerSide", "$(function() { openModal(); });", true);
@@ -118,7 +137,7 @@ namespace AppWebInternetBanking.Views
                 Error error = new Error()
                 {
                     CodigoUsuario =
-                Convert.ToInt32(Session["CodigoUsuario"].ToString()),
+                    Convert.ToInt32(Session["CodigoUsuario"].ToString()),
                     FechaHora = DateTime.Now,
                     Vista = "frmServicio.aspx",
                     Accion = "btnAceptarModal_Click",
@@ -130,8 +149,6 @@ namespace AppWebInternetBanking.Views
             }
         }
 
-
-
         protected void btnCancelarModal_Click(object sender, EventArgs e)
         {
             ScriptManager.RegisterStartupScript(this, this.GetType(), "LaunchServerSide", "$(function() { CloseModal(); });", true);
@@ -140,7 +157,7 @@ namespace AppWebInternetBanking.Views
         protected void btnNuevo_Click(object sender, EventArgs e)
         {
             ltrTituloMantenimiento.Text = "Nuevo servicio";
-            btnAceptarMant.ControlStyle.CssClass = "btn btn-sucess";
+            btnAceptarMant.ControlStyle.CssClass = "btn btn-success";
             btnAceptarMant.Visible = true;
             ltrCodigoMant.Visible = true;
             txtCodigoMant.Visible = true;
@@ -150,17 +167,13 @@ namespace AppWebInternetBanking.Views
             txtCodigoMant.Text = string.Empty;
             txtDescripcion.Text = string.Empty;
             ScriptManager.RegisterStartupScript(this,
-            this.GetType(), "LaunchServerSide", "$(function() {openModalMantenimiento(); } );", true);
+                this.GetType(), "LaunchServerSide", "$(function() {openModalMantenimiento(); } );", true);
         }
-
-
 
         protected void gvServicios_RowCommand(object sender, GridViewCommandEventArgs e)
         {
             int index = Convert.ToInt32(e.CommandArgument);
             GridViewRow row = gvServicios.Rows[index];
-
-
 
             switch (e.CommandName)
             {
@@ -171,17 +184,19 @@ namespace AppWebInternetBanking.Views
                     txtDescripcion.Text = row.Cells[1].Text.Trim();
                     btnAceptarMant.Visible = true;
                     ScriptManager.RegisterStartupScript(this,
-                    this.GetType(), "LaunchServerSide", "$(function() {openModalMantenimiento(); } );", true);
+                this.GetType(), "LaunchServerSide", "$(function() {openModalMantenimiento(); } );", true);
                     break;
                 case "Eliminar":
-                    lblCodigoEliminar.Text = row.Cells[0].Text;
-                    ltrModalMensaje.Text = "Esta seguro que desea eliminar el servicio # " + lblCodigoEliminar.Text + "?";
+                    _codigo = row.Cells[0].Text.Trim();
+                    ltrModalMensaje.Text = "Esta seguro que desea eliminar el servicio?";
                     ScriptManager.RegisterStartupScript(this,
-                    this.GetType(), "LaunchServerSide", "$(function() {openModal(); } );", true);
+               this.GetType(), "LaunchServerSide", "$(function() {openModal(); } );", true);
                     break;
                 default:
                     break;
             }
         }
+
+
     }
 }

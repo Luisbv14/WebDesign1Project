@@ -12,20 +12,18 @@ using API.Models;
 
 namespace API.Controllers
 {
-
+    [AllowAnonymous]
     public class UsuariosController : ApiController
     {
         private INTERNET_BANKING_DW1_3C2021Entities db = new INTERNET_BANKING_DW1_3C2021Entities();
 
         // GET: api/Usuarios
-        [Authorize]
         public IQueryable<Usuario> GetUsuario()
         {
             return db.Usuario;
         }
 
         // GET: api/Usuarios/5
-        [Authorize]
         [ResponseType(typeof(Usuario))]
         public IHttpActionResult GetUsuario(int id)
         {
@@ -39,18 +37,12 @@ namespace API.Controllers
         }
 
         // PUT: api/Usuarios/5
-        [Authorize]
-        [ResponseType(typeof(void))]
-        public IHttpActionResult PutUsuario(int id, Usuario usuario)
+        [ResponseType(typeof(Usuario))]
+        public IHttpActionResult PutUsuario(Usuario usuario)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-            }
-
-            if (id != usuario.Codigo)
-            {
-                return BadRequest();
             }
 
             db.Entry(usuario).State = EntityState.Modified;
@@ -61,7 +53,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UsuarioExists(id))
+                if (!UsuarioExists(usuario.Codigo))
                 {
                     return NotFound();
                 }
@@ -71,11 +63,10 @@ namespace API.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(usuario);
         }
 
         // POST: api/Usuarios
-        [AllowAnonymous]
         [ResponseType(typeof(Usuario))]
         public IHttpActionResult PostUsuario(Usuario usuario)
         {
@@ -91,7 +82,6 @@ namespace API.Controllers
         }
 
         // DELETE: api/Usuarios/5
-        [Authorize]
         [ResponseType(typeof(Usuario))]
         public IHttpActionResult DeleteUsuario(int id)
         {

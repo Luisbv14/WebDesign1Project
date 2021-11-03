@@ -13,17 +13,12 @@ namespace AppWebInternetBanking.Controllers
     {
         string UrlBase = "http://localhost:49220/api/Sesions/";
 
-
         HttpClient GetClient(string token)
         {
             HttpClient httpClient = new HttpClient();
 
-
-
             httpClient.DefaultRequestHeaders.Add("Authorization", token);
             httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
-
-
 
             return httpClient;
         }
@@ -32,27 +27,17 @@ namespace AppWebInternetBanking.Controllers
         {
             HttpClient httpClient = GetClient(token);
 
-
-
             var response = await httpClient.PostAsync(UrlBase,
             new StringContent(JsonConvert.SerializeObject(sesion), Encoding.UTF8, "application/json"));
-
-
 
             return JsonConvert.DeserializeObject<Sesion>(await response.Content.ReadAsStringAsync());
         }
 
-
-
         public async Task<IEnumerable<Sesion>> ObtenerSesiones(string token)
         {
-            HttpClient httpClient = GetClient(token);
-
-
+            HttpClient httpClient = new HttpClient();
 
             var response = await httpClient.GetStringAsync(UrlBase);
-
-
 
             return JsonConvert.DeserializeObject<IEnumerable<Sesion>>(response);
         }

@@ -14,19 +14,14 @@ namespace AppWebInternetBanking
         {
 
         }
-
         protected override void OnInit(EventArgs e)
         {
             Response.Cache.SetCacheability(HttpCacheability.NoCache);
             Response.Cache.SetNoStore();
             Response.Cache.SetExpires(DateTime.MinValue);
 
-
-
             base.OnInit(e);
         }
-
-
 
         protected void lnkCerrarSesion_Click(object sender, EventArgs e)
         {

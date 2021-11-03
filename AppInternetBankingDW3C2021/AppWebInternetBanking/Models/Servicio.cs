@@ -1,4 +1,3 @@
-
 namespace AppWebInternetBanking.Models
 {
     using System;
@@ -6,7 +5,6 @@ namespace AppWebInternetBanking.Models
     
     public partial class Servicio
     {
-     
         public int Codigo { get; set; }
         public string Descripcion { get; set; }
         public string Estado { get; set; }

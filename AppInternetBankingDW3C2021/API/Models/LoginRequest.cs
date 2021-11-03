@@ -5,7 +5,6 @@ using System.Web;
 
 namespace API.Models
 {
-
     public class LoginRequest
     {
         public string Username { get; set; }

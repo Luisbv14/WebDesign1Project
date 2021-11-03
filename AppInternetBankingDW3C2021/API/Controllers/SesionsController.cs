@@ -37,17 +37,12 @@ namespace API.Controllers
         }
 
         // PUT: api/Sesions/5
-        [ResponseType(typeof(void))]
-        public IHttpActionResult PutSesion(int id, Sesion sesion)
+        [ResponseType(typeof(Sesion))]
+        public IHttpActionResult PutSesion(Sesion sesion)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-            }
-
-            if (id != sesion.Codigo)
-            {
-                return BadRequest();
             }
 
             db.Entry(sesion).State = EntityState.Modified;
@@ -58,7 +53,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!SesionExists(id))
+                if (!SesionExists(sesion.Codigo))
                 {
                     return NotFound();
                 }
@@ -68,7 +63,7 @@ namespace API.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(sesion);
         }
 
         // POST: api/Sesions

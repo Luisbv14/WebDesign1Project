@@ -2,9 +2,9 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// La información general sobre un ensamblado se controla mediante lo siguiente
-// conjunto de atributos. Cambie los valores de estos atributos para modificar la información
-// asociada con un ensamblado.
+// Les informations générales relatives à un assembly dépendent de 
+// l’ensemble d’attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
+// associées à un assembly.
 [assembly: AssemblyTitle("API")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
@@ -14,22 +14,22 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Si configura ComVisible como falso, los tipos de este ensamblado no se hacen visibles
-// para componentes COM.  Si necesita acceder a un tipo de este ensamblado desde
-// COM, establezca el atributo ComVisible en True en este tipo.
+// L’affectation de la valeur false à ComVisible rend les types invisibles dans cet assembly
+// aux composants COM. Si vous devez accéder à un type dans cet assembly à partir de
+// COM, affectez la valeur true à l’attribut ComVisible sur ce type.
 [assembly: ComVisible(false)]
 
-// El siguiente GUID sirve como ID de typelib si este proyecto se expone a COM
-[assembly: Guid("62bb5275-03a0-4f25-a91b-b5577951deb4")]
+// Le GUID suivant est pour l’ID de la typelib si ce projet est exposé à COM
+[assembly: Guid("1b71aa4a-d10e-495e-a5de-61e30f801e0d")]
 
-// La información de versión de un ensamblado consta de los siguientes cuatro valores:
+// Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //
-//      Versión principal
-//      Versión secundaria
-//      Número de compilación
-//      Revisión
+//      Version principale
+//      Version mineure
+//      Numéro de build
+//      Révision
 //
-// Puede especificar todos los valores o puede predeterminar los números de compilación y de revisión
-// mediante el carácter '*', como se muestra a continuación:
+// Vous pouvez spécifier toutes les valeurs ou vous pouvez définir par défaut les valeurs Révision et Numéro de version
+// en utilisant ’*’, comme indiqué ci-dessous :
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

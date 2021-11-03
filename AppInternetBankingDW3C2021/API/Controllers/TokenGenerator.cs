@@ -28,12 +28,12 @@ namespace API.Controllers
             // create token to the user
             var tokenHandler = new System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler();
             var jwtSecurityToken = tokenHandler.CreateJwtSecurityToken(
-                audience: audienceToken,
-                issuer: issuerToken,
-                subject: claimsIdentity,
-                notBefore: DateTime.UtcNow,
-                expires: DateTime.UtcNow.AddMinutes(Convert.ToInt32(expireTime)),
-                signingCredentials: signingCredentials);
+            audience: audienceToken,
+            issuer: issuerToken,
+            subject: claimsIdentity,
+            notBefore: DateTime.UtcNow,
+            expires: DateTime.UtcNow.AddMinutes(Convert.ToInt32(expireTime)),
+            signingCredentials: signingCredentials);
 
             var jwtTokenString = tokenHandler.WriteToken(jwtSecurityToken);
             return jwtTokenString;

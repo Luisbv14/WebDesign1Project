@@ -9,7 +9,7 @@ namespace AppWebInternetBanking
 {
     public class BundleConfig
     {
-        // Para obtener más información sobre las uniones, visite https://go.microsoft.com/fwlink/?LinkID=303951
+        // Pour plus d'informations sur le regroupement, visitez https://go.microsoft.com/fwlink/?LinkID=303951
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/WebFormsJs").Include(
@@ -22,15 +22,15 @@ namespace AppWebInternetBanking
                             "~/Scripts/WebForms/TreeView.js",
                             "~/Scripts/WebForms/WebParts.js"));
 
-            // El orden es muy importante para el funcionamiento de estos archivos ya que tienen dependencias explícitas
+            // L'ordre est très important pour que ces fichiers fonctionnent, car ils ont des dépendances explicites
             bundles.Add(new ScriptBundle("~/bundles/MsAjaxJs").Include(
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjax.js",
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxApplicationServices.js",
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxTimer.js",
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js"));
 
-            // Use la versión de desarrollo de Modernizr para desarrollar y aprender. Luego, cuando esté listo
-            // para la producción, use la herramienta de compilación disponible en https://modernizr.com para seleccionar solo las pruebas que necesite
+            // La version Development de Modernizr vous permet de développer et d’apprendre. Ensuite, lorsque vous êtes
+            // prêt pour la production, utilisez l'outil de génération à l'adresse https://modernizr.com pour sélectionner uniquement les tests dont vous avez besoin
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                             "~/Scripts/modernizr-*"));
         }

@@ -45,11 +45,7 @@ namespace API.Controllers
                 return BadRequest(ModelState);
             }
 
-
-
             db.Entry(servicio).State = EntityState.Modified;
-
-
 
             try
             {
@@ -66,8 +62,6 @@ namespace API.Controllers
                     throw;
                 }
             }
-
-
 
             return Ok(servicio);
         }

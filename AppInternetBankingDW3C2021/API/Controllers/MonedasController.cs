@@ -17,13 +17,13 @@ namespace API.Controllers
     {
         private INTERNET_BANKING_DW1_3C2021Entities db = new INTERNET_BANKING_DW1_3C2021Entities();
 
-        // GET: api/Monedas
+        // GET: api/Servicios
         public IQueryable<Moneda> GetMoneda()
         {
             return db.Moneda;
         }
 
-        // GET: api/Monedas/5
+        // GET: api/Servicios/5
         [ResponseType(typeof(Moneda))]
         public IHttpActionResult GetMoneda(int id)
         {
@@ -36,18 +36,13 @@ namespace API.Controllers
             return Ok(moneda);
         }
 
-        // PUT: api/Monedas/5
-        [ResponseType(typeof(void))]
-        public IHttpActionResult PutMoneda(int id, Moneda moneda)
+        // PUT: api/Servicios/5
+        [ResponseType(typeof(Moneda))]
+        public IHttpActionResult PutMoneda(Moneda moneda)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-            }
-
-            if (id != moneda.Codigo)
-            {
-                return BadRequest();
             }
 
             db.Entry(moneda).State = EntityState.Modified;
@@ -58,7 +53,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!MonedaExists(id))
+                if (!MonedaExists(moneda.Codigo))
                 {
                     return NotFound();
                 }
@@ -68,10 +63,10 @@ namespace API.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(moneda);
         }
 
-        // POST: api/Monedas
+        // POST: api/Servicios
         [ResponseType(typeof(Moneda))]
         public IHttpActionResult PostMoneda(Moneda moneda)
         {
@@ -86,7 +81,7 @@ namespace API.Controllers
             return CreatedAtRoute("DefaultApi", new { id = moneda.Codigo }, moneda);
         }
 
-        // DELETE: api/Monedas/5
+        // DELETE: api/Servicios/5
         [ResponseType(typeof(Moneda))]
         public IHttpActionResult DeleteMoneda(int id)
         {

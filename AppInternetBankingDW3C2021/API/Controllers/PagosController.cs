@@ -37,17 +37,12 @@ namespace API.Controllers
         }
 
         // PUT: api/Pagos/5
-        [ResponseType(typeof(void))]
-        public IHttpActionResult PutPago(int id, Pago pago)
+        [ResponseType(typeof(Pago))]
+        public IHttpActionResult PutPago(Pago pago)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-            }
-
-            if (id != pago.Codigo)
-            {
-                return BadRequest();
             }
 
             db.Entry(pago).State = EntityState.Modified;
@@ -58,7 +53,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!PagoExists(id))
+                if (!PagoExists(pago.Codigo))
                 {
                     return NotFound();
                 }
@@ -68,7 +63,7 @@ namespace API.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(pago);
         }
 
         // POST: api/Pagos

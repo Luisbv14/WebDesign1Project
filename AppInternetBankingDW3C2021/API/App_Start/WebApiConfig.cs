@@ -8,14 +8,12 @@ namespace API
 {
     public static class WebApiConfig
     {
-
         public static void Register(HttpConfiguration config)
         {
-            // Configuración y servicios de API web
+            // Configuration et services API Web
 
-            // Rutas de API web
+            // Itinéraires de l'API Web
             config.MapHttpAttributeRoutes();
-
             config.MessageHandlers.Add(new TokenValidationHandler());
 
             config.Routes.MapHttpRoute(

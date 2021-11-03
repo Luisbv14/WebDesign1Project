@@ -37,17 +37,12 @@ namespace API.Controllers
         }
 
         // PUT: api/Transferencias/5
-        [ResponseType(typeof(void))]
-        public IHttpActionResult PutTransferencia(int id, Transferencia transferencia)
+        [ResponseType(typeof(Transferencia))]
+        public IHttpActionResult PutTransferencia(Transferencia transferencia)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-            }
-
-            if (id != transferencia.Codigo)
-            {
-                return BadRequest();
             }
 
             db.Entry(transferencia).State = EntityState.Modified;
@@ -58,7 +53,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!TransferenciaExists(id))
+                if (!TransferenciaExists(transferencia.Codigo))
                 {
                     return NotFound();
                 }
@@ -68,7 +63,7 @@ namespace API.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(transferencia);
         }
 
         // POST: api/Transferencias

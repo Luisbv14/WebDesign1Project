@@ -14,8 +14,7 @@ namespace AppWebInternetBanking.CustomErrors
         protected async void Page_Load(object sender, EventArgs e)
         {
             Exception err = Session["LastError"] as Exception;
-
-            if(err != null)
+            if (err != null)
             {
                 err = err.GetBaseException();
                 lblError.Text = err.Message;

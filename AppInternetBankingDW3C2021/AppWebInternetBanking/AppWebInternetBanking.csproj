@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E675A802-5993-45C9-980A-EF25B0BD8429}</ProjectGuid>
+    <ProjectGuid>{B58F3E8B-4167-4F1A-9AEF-0EFAA1FC223D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -195,12 +195,20 @@
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Views\frmCuenta.aspx" />
+    <Content Include="Views\frmFondoInversion.aspx" />
+    <Content Include="Views\frmMarchamo.aspx" />
     <Content Include="Views\frmMoneda.aspx" />
     <Content Include="Views\frmPago.aspx" />
+    <Content Include="Views\frmPrestamo.aspx" />
+    <Content Include="Views\frmReporte.aspx" />
     <Content Include="Views\frmReporteError.aspx" />
     <Content Include="Views\frmReporteEstadistica.aspx" />
     <Content Include="Views\frmReporteSesion.aspx" />
     <Content Include="Views\frmServicio.aspx" />
+    <Content Include="Views\frmSinpeMovil.aspx" />
+    <Content Include="Views\frmSobre.aspx" />
+    <Content Include="Views\frmSolicitudCita.aspx" />
+    <Content Include="Views\frmSolicitudTarjeta.aspx" />
     <Content Include="Views\frmTransferencia.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -228,8 +236,10 @@
     <Compile Include="Controllers\ErrorManager.cs" />
     <Compile Include="Controllers\EstadisticaManager.cs" />
     <Compile Include="Controllers\MonedaManager.cs" />
+    <Compile Include="Controllers\PagoManager.cs" />
     <Compile Include="Controllers\ServicioManager.cs" />
     <Compile Include="Controllers\SesionManager.cs" />
+    <Compile Include="Controllers\TransferenciaManager.cs" />
     <Compile Include="Controllers\UsuarioManager.cs" />
     <Compile Include="CustomErrors\frmError.aspx.cs">
       <DependentUpon>frmError.aspx</DependentUpon>
@@ -303,6 +313,20 @@
     <Compile Include="Views\frmCuenta.aspx.designer.cs">
       <DependentUpon>frmCuenta.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\frmFondoInversion.aspx.cs">
+      <DependentUpon>frmFondoInversion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\frmFondoInversion.aspx.designer.cs">
+      <DependentUpon>frmFondoInversion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmMarchamo.aspx.cs">
+      <DependentUpon>frmMarchamo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\frmMarchamo.aspx.designer.cs">
+      <DependentUpon>frmMarchamo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\frmMoneda.aspx.cs">
       <DependentUpon>frmMoneda.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -316,6 +340,20 @@
     </Compile>
     <Compile Include="Views\frmPago.aspx.designer.cs">
       <DependentUpon>frmPago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmPrestamo.aspx.cs">
+      <DependentUpon>frmPrestamo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\frmPrestamo.aspx.designer.cs">
+      <DependentUpon>frmPrestamo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmReporte.aspx.cs">
+      <DependentUpon>frmReporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\frmReporte.aspx.designer.cs">
+      <DependentUpon>frmReporte.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\frmReporteError.aspx.cs">
       <DependentUpon>frmReporteError.aspx</DependentUpon>
@@ -344,6 +382,34 @@
     </Compile>
     <Compile Include="Views\frmServicio.aspx.designer.cs">
       <DependentUpon>frmServicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSinpeMovil.aspx.cs">
+      <DependentUpon>frmSinpeMovil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\frmSinpeMovil.aspx.designer.cs">
+      <DependentUpon>frmSinpeMovil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSobre.aspx.cs">
+      <DependentUpon>frmSobre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\frmSobre.aspx.designer.cs">
+      <DependentUpon>frmSobre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSolicitudCita.aspx.cs">
+      <DependentUpon>frmSolicitudCita.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\frmSolicitudCita.aspx.designer.cs">
+      <DependentUpon>frmSolicitudCita.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmSolicitudTarjeta.aspx.cs">
+      <DependentUpon>frmSolicitudTarjeta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\frmSolicitudTarjeta.aspx.designer.cs">
+      <DependentUpon>frmSolicitudTarjeta.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\frmTransferencia.aspx.cs">
       <DependentUpon>frmTransferencia.aspx</DependentUpon>
@@ -380,9 +446,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>64226</DevelopmentServerPort>
+          <DevelopmentServerPort>56277</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:64226/</IISUrl>
+          <IISUrl>http://localhost:56277/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
@@ -394,7 +460,7 @@
   </ProjectExtensions>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
-      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>

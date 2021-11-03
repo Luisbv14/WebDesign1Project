@@ -13,26 +13,26 @@ namespace AppWebInternetBanking.Controllers
     public class UsuarioManager
     {
         string UrlLogin = "http://localhost:49220/api/login/authenticate/";
+
         string UrlRegister = "http://localhost:49220/api/usuarios/";
 
-        public async Task<Usuario> Autenticar(LoginRequest loginRequest)
+        public async Task<Usuario> Autenticar (LoginRequest loginRequest)
         {
             HttpClient httpClient = new HttpClient();
 
             var response = await httpClient.PostAsync(UrlLogin,
-                new StringContent(JsonConvert.SerializeObject(loginRequest),
-                    Encoding.UTF8, "application/json"));
+            new StringContent(JsonConvert.SerializeObject(loginRequest), Encoding.UTF8, "application/json"));
+
             return JsonConvert.DeserializeObject<Usuario>(await response.Content.ReadAsStringAsync());
         }
 
-        public async Task<Usuario> Registrar(Usuario usuario)
+        public async Task<Usuario> Registrar (Usuario usuario)
         {
             HttpClient httpClient = new HttpClient();
-
             var response = await httpClient.PostAsync(UrlRegister,
-                new StringContent(JsonConvert.SerializeObject(usuario),
-                    Encoding.UTF8, "application/json"));
+            new StringContent(JsonConvert.SerializeObject(usuario), Encoding.UTF8, "application/json"));
+
             return JsonConvert.DeserializeObject<Usuario>(await response.Content.ReadAsStringAsync());
         }
-    } 
+    }
 }
