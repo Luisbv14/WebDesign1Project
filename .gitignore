@@ -4,7 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 #Ignorando la conexión a la BD
-AppInternetBankingDW3C2021\API\Global.asax.cs
+AppInternetBankingDW3C2021\API\Web.config
+
 
 #Ignorando el correo con los credenciales de cada uno
 AppInternetBankingDW3C2021\AppWebInternetBanking\Models\Correo.cs
