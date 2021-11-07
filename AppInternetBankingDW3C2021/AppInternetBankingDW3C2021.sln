@@ -4,11 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{F64276C6-BA57-45C9-9AD7-F4EEEFCD7154}"
-	ProjectSection(ProjectDependencies) = postProject
-		{B58F3E8B-4167-4F1A-9AEF-0EFAA1FC223D} = {B58F3E8B-4167-4F1A-9AEF-0EFAA1FC223D}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWebInternetBanking", "AppWebInternetBanking\AppWebInternetBanking.csproj", "{B58F3E8B-4167-4F1A-9AEF-0EFAA1FC223D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F64276C6-BA57-45C9-9AD7-F4EEEFCD7154} = {F64276C6-BA57-45C9-9AD7-F4EEEFCD7154}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

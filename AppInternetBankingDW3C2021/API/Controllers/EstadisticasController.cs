@@ -15,7 +15,7 @@ namespace API.Controllers
     [AllowAnonymous]
     public class EstadisticasController : ApiController
     {
-        private INTERNET_BANKING_DW1_3C2021Entities db = new INTERNET_BANKING_DW1_3C2021Entities();
+        private INTERNET_BANKING_DW1_3C2021 db = new INTERNET_BANKING_DW1_3C2021();
 
         // GET: api/Estadisticas
         public IQueryable<Estadistica> GetEstadistica()
@@ -37,17 +37,12 @@ namespace API.Controllers
         }
 
         // PUT: api/Estadisticas/5
-        [ResponseType(typeof(void))]
-        public IHttpActionResult PutEstadistica(int id, Estadistica estadistica)
+        [ResponseType(typeof(Estadistica))]
+        public IHttpActionResult PutEstadistica(Estadistica estadistica)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-            }
-
-            if (id != estadistica.Codigo)
-            {
-                return BadRequest();
             }
 
             db.Entry(estadistica).State = EntityState.Modified;
@@ -58,7 +53,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!EstadisticaExists(id))
+                if (!EstadisticaExists(estadistica.Codigo))
                 {
                     return NotFound();
                 }
@@ -68,7 +63,7 @@ namespace API.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(estadistica);
         }
 
         // POST: api/Estadisticas

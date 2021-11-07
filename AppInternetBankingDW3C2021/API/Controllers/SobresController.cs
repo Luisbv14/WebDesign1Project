@@ -12,10 +12,10 @@ using API.Models;
 
 namespace API.Controllers
 {
-    [Authorize]
+    [AllowAnonymous]
     public class SobresController : ApiController
     {
-        private INTERNET_BANKING_DW1_3C2021Entities db = new INTERNET_BANKING_DW1_3C2021Entities();
+        private INTERNET_BANKING_DW1_3C2021 db = new INTERNET_BANKING_DW1_3C2021();
 
         // GET: api/Sobres
         public IQueryable<Sobre> GetSobre()
@@ -51,7 +51,7 @@ namespace API.Controllers
             {
                 db.SaveChanges();
             }
-            catch (DbUpdateConcurrencyException)
+            catch (DbUpdateConcurrencyException e)
             {
                 if (!SobreExists(sobre.CodigoSobre))
                 {

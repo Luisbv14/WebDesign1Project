@@ -64,7 +64,7 @@ namespace AppWebInternetBanking.Views
                     InicializarControles();
 
                     Correo correo = new Correo();
-                    correo.Enviar("Nuevo servicio incluido", servicioIngresado.Descripcion, "alopezmoreno.22@gmail.com",
+                    correo.Enviar("Nuevo servicio incluido", servicioIngresado.Descripcion, "testertestingprogrammer@gmail.com",
                         Convert.ToInt32(Session["CodigoUsuario"].ToString()));
 
                     ScriptManager.RegisterStartupScript(this,
@@ -97,7 +97,7 @@ namespace AppWebInternetBanking.Views
                     InicializarControles();
 
                     Correo correo = new Correo();
-                    correo.Enviar("Servicio actualizado con exito", servicioActualizado.Descripcion, "alopezmoreno.22@gmail.com",
+                    correo.Enviar("Servicio actualizado con exito", servicioActualizado.Descripcion, "testertestingprogrammer@gmail.com",
                         Convert.ToInt32(Session["CodigoUsuario"].ToString()));
 
                     ScriptManager.RegisterStartupScript(this,
@@ -166,6 +166,7 @@ namespace AppWebInternetBanking.Views
             ddlEstadoMant.Enabled = false;
             txtCodigoMant.Text = string.Empty;
             txtDescripcion.Text = string.Empty;
+            ddlEstadoMant.SelectedIndex = default;
             ScriptManager.RegisterStartupScript(this,
                 this.GetType(), "LaunchServerSide", "$(function() {openModalMantenimiento(); } );", true);
         }
@@ -183,6 +184,7 @@ namespace AppWebInternetBanking.Views
                     txtCodigoMant.Text = row.Cells[0].Text.Trim();
                     txtDescripcion.Text = row.Cells[1].Text.Trim();
                     btnAceptarMant.Visible = true;
+                    ddlEstadoMant.Enabled = true;
                     ScriptManager.RegisterStartupScript(this,
                 this.GetType(), "LaunchServerSide", "$(function() {openModalMantenimiento(); } );", true);
                     break;

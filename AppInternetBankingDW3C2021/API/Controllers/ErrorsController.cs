@@ -15,7 +15,7 @@ namespace API.Controllers
     [AllowAnonymous]
     public class ErrorsController : ApiController
     {
-        private INTERNET_BANKING_DW1_3C2021Entities db = new INTERNET_BANKING_DW1_3C2021Entities();
+        private INTERNET_BANKING_DW1_3C2021 db = new INTERNET_BANKING_DW1_3C2021();
 
         // GET: api/Errors
         public IQueryable<Error> GetError()
@@ -37,17 +37,12 @@ namespace API.Controllers
         }
 
         // PUT: api/Errors/5
-        [ResponseType(typeof(void))]
-        public IHttpActionResult PutError(int id, Error error)
+        [ResponseType(typeof(Error))]
+        public IHttpActionResult PutError(Error error)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-            }
-
-            if (id != error.Codigo)
-            {
-                return BadRequest();
             }
 
             db.Entry(error).State = EntityState.Modified;
@@ -58,7 +53,7 @@ namespace API.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ErrorExists(id))
+                if (!ErrorExists(error.Codigo))
                 {
                     return NotFound();
                 }
@@ -68,7 +63,7 @@ namespace API.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(error);
         }
 
         // POST: api/Errors

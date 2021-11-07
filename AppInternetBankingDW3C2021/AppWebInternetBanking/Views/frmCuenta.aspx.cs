@@ -36,7 +36,7 @@ namespace AppWebInternetBanking.Views
                 gvCuentas.DataSource = cuentas.ToList();
                 gvCuentas.DataBind();
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 lblStatus.Text = "Hubo un error al cargar la lista de cuentas";
                 lblStatus.Visible = true;
@@ -69,7 +69,7 @@ namespace AppWebInternetBanking.Views
                     InicializarControles();
 
                     Correo correo = new Correo();
-                    correo.Enviar("Nueva cuenta incluida", cuentaIngresada.Descripcion, "alopezmoreno.22@gmail.com",
+                    correo.Enviar("Nueva cuenta incluida", cuentaIngresada.Descripcion, "testertestingprogrammer@gmail.com",
                         Convert.ToInt32(Session["CodigoUsuario"].ToString()));
 
                     ScriptManager.RegisterStartupScript(this,
@@ -107,7 +107,7 @@ namespace AppWebInternetBanking.Views
                     InicializarControles();
 
                     Correo correo = new Correo();
-                    correo.Enviar("Cuenta actualizada con exito", cuentaActualizada.Descripcion, "alopezmoreno.22@gmail.com",
+                    correo.Enviar("Cuenta actualizada con exito", cuentaActualizada.Descripcion, "testertestingprogrammer@gmail.com",
                         Convert.ToInt32(Session["CodigoUsuario"].ToString()));
 
                     ScriptManager.RegisterStartupScript(this,
@@ -189,6 +189,7 @@ namespace AppWebInternetBanking.Views
             ddlEstadoMant.Enabled = false;
 
             txtCodigoMant.Text = string.Empty;
+            txtCodigoMoneda.Text = string.Empty;
             txtCodigoUsuario.Text = string.Empty;
             txtDescripcion.Text = string.Empty;
             txtIBAN.Text = string.Empty;
@@ -213,6 +214,7 @@ namespace AppWebInternetBanking.Views
                     txtIBAN.Text = row.Cells[4].Text.Trim();
                     txtSaldo.Text = row.Cells[5].Text.Trim();
                     btnAceptarMant.Visible = true;
+                    txtIBAN.Enabled = false;
                     ScriptManager.RegisterStartupScript(this,
                 this.GetType(), "LaunchServerSide", "$(function() {openModalMantenimiento(); } );", true);
                     break;

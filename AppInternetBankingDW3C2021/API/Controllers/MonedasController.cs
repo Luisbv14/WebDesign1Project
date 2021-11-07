@@ -15,7 +15,7 @@ namespace API.Controllers
     [Authorize]
     public class MonedasController : ApiController
     {
-        private INTERNET_BANKING_DW1_3C2021Entities db = new INTERNET_BANKING_DW1_3C2021Entities();
+        private INTERNET_BANKING_DW1_3C2021 db = new INTERNET_BANKING_DW1_3C2021();
 
         // GET: api/Servicios
         public IQueryable<Moneda> GetMoneda()

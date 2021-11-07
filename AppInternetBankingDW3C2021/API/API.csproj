@@ -207,74 +207,71 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Cuenta.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Error.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Estadistica.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\FondoInversion.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\LoginRequest.cs" />
     <Compile Include="Models\Marchamo.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\ModeloIB.Context.cs">
+    <Compile Include="Models\ModeloWebDesign.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModeloIB.Context.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\ModeloIB.cs">
+    <Compile Include="Models\ModeloWebDesign.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\ModeloIB.Designer.cs">
+    <Compile Include="Models\ModeloWebDesign.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ModeloIB.edmx</DependentUpon>
+      <DependentUpon>ModeloWebDesign.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Moneda.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Pago.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Prestamo.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Reporte.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Servicio.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Sesion.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SinpeMovil.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Sobre.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SolicitudCita.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SolicitudTarjeta.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sysdiagrams.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Transferencia.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Usuario.cs">
-      <DependentUpon>ModeloIB.tt</DependentUpon>
+      <DependentUpon>ModeloWebDesign.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\UsuarioPartial.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -288,15 +285,15 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Models\ModeloIB.Context.tt">
+    <Content Include="Models\ModeloWebDesign.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ModeloIB.Context.cs</LastGenOutput>
-      <DependentUpon>ModeloIB.edmx</DependentUpon>
+      <DependentUpon>ModeloWebDesign.edmx</DependentUpon>
+      <LastGenOutput>ModeloWebDesign.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\ModeloIB.tt">
+    <Content Include="Models\ModeloWebDesign.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModeloIB.edmx</DependentUpon>
-      <LastGenOutput>ModeloIB.cs</LastGenOutput>
+      <DependentUpon>ModeloWebDesign.edmx</DependentUpon>
+      <LastGenOutput>ModeloWebDesign.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -319,12 +316,12 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <EntityDeploy Include="Models\ModeloIB.edmx">
+    <EntityDeploy Include="Models\ModeloWebDesign.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ModeloIB.Designer.cs</LastGenOutput>
+      <LastGenOutput>ModeloWebDesign.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\ModeloIB.edmx.diagram">
-      <DependentUpon>ModeloIB.edmx</DependentUpon>
+    <Content Include="Models\ModeloWebDesign.edmx.diagram">
+      <DependentUpon>ModeloWebDesign.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />

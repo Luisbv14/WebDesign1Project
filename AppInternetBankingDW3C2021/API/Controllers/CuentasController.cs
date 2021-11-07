@@ -15,7 +15,7 @@ namespace API.Controllers
     [Authorize]
     public class CuentasController : ApiController
     {
-        private INTERNET_BANKING_DW1_3C2021Entities db = new INTERNET_BANKING_DW1_3C2021Entities();
+        private INTERNET_BANKING_DW1_3C2021 db = new INTERNET_BANKING_DW1_3C2021();
 
         // GET: api/Cuentas
         public IQueryable<Cuenta> GetCuenta()
@@ -45,7 +45,10 @@ namespace API.Controllers
                 return BadRequest(ModelState);
             }
 
+
+
             db.Entry(cuenta).State = EntityState.Modified;
+
 
             try
             {
@@ -62,7 +65,6 @@ namespace API.Controllers
                     throw;
                 }
             }
-
             return Ok(cuenta);
         }
 

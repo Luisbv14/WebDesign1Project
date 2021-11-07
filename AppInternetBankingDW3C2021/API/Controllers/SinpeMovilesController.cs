@@ -15,7 +15,7 @@ namespace API.Controllers
     [Authorize]
     public class SinpeMovilesController : ApiController
     {
-        private INTERNET_BANKING_DW1_3C2021Entities db = new INTERNET_BANKING_DW1_3C2021Entities();
+        private INTERNET_BANKING_DW1_3C2021 db = new INTERNET_BANKING_DW1_3C2021();
 
         // GET: api/SinpeMoviles
         public IQueryable<SinpeMovil> GetSinpeMovil()

@@ -63,7 +63,7 @@ namespace AppWebInternetBanking.Views
                     InicializarControles();
 
                     Correo correo = new Correo();
-                    correo.Enviar("Nueva moneda incluida", monedaIngresada.Descripcion, "alopezmoreno.22@gmail.com",
+                    correo.Enviar("Nueva moneda incluida", monedaIngresada.Descripcion, "testertestingprogrammer@gmail.com",
                         Convert.ToInt32(Session["CodigoUsuario"].ToString()));
 
                     ScriptManager.RegisterStartupScript(this,
@@ -96,7 +96,7 @@ namespace AppWebInternetBanking.Views
                     InicializarControles();
 
                     Correo correo = new Correo();
-                    correo.Enviar("Moneda actualizaao con exito", monedaActualizada.Descripcion, "alopezmoreno.22@gmail.com",
+                    correo.Enviar("Moneda actualizaao con exito", monedaActualizada.Descripcion, "testertestingprogrammer@gmail.com",
                         Convert.ToInt32(Session["CodigoUsuario"].ToString()));
 
                     ScriptManager.RegisterStartupScript(this,
