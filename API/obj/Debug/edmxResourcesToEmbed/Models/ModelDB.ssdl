@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="INTERNET_BANKING_DW1_3C2021Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cuenta">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoUsuario" Type="int" Nullable="false" />
+    <Property Name="CodigoMoneda" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="IBAN" Type="varchar" MaxLength="22" />
+    <Property Name="Saldo" Type="numeric" Precision="18" Scale="2" />
+    <Property Name="Estado" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Error">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoUsuario" Type="int" Nullable="false" />
+    <Property Name="FechaHora" Type="datetime" Nullable="false" />
+    <Property Name="Fuente" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Numero" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Vista" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Accion" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Estadistica">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoUsuario" Type="int" Nullable="false" />
+    <Property Name="FechaHora" Type="datetime" Nullable="false" />
+    <Property Name="PlataformaDispositivo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Navegador" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Vista" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Accion" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FondoInversion">
+    <Key>
+      <PropertyRef Name="CodigoInversion" />
+    </Key>
+    <Property Name="CodigoInversion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoCuenta" Type="int" Nullable="false" />
+    <Property Name="Plazo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tasa" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Monto" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="FechaHoraInicio" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Marchamo">
+    <Key>
+      <PropertyRef Name="CodigoPago" />
+    </Key>
+    <Property Name="CodigoPago" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoUsuario" Type="int" Nullable="false" />
+    <Property Name="PlacaVehiculo" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Monto" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="CodigoMoneda" Type="int" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="FechaHoraPago" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Moneda">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pago">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoServicio" Type="int" Nullable="false" />
+    <Property Name="CodigoCuenta" Type="int" Nullable="false" />
+    <Property Name="FechaHora" Type="datetime" Nullable="false" />
+    <Property Name="Monto" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Prestamo">
+    <Key>
+      <PropertyRef Name="CodigoPrestamo" />
+    </Key>
+    <Property Name="CodigoPrestamo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoUsuario" Type="int" Nullable="false" />
+    <Property Name="CodigoMoneda" Type="int" Nullable="false" />
+    <Property Name="FechaHora" Type="datetime" Nullable="false" />
+    <Property Name="Monto" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Plazo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tasa" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Reporte">
+    <Key>
+      <PropertyRef Name="CodigoReporte" />
+    </Key>
+    <Property Name="CodigoReporte" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoCuenta" Type="int" Nullable="false" />
+    <Property Name="TipoReporte" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="FechaHora" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Servicio">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sesion">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoUsuario" Type="int" Nullable="false" />
+    <Property Name="FechaHoraInicio" Type="datetime" Nullable="false" />
+    <Property Name="FechaHoraExpiracion" Type="datetime" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SinpeMovil">
+    <Key>
+      <PropertyRef Name="CodigoSinpe" />
+    </Key>
+    <Property Name="CodigoSinpe" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoUsuario" Type="int" Nullable="false" />
+    <Property Name="CodigoMoneda" Type="int" Nullable="false" />
+    <Property Name="NumeroTelefonoEmisor" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="NumeroTelefonoRemitente" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Monto" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="FechaHora" Type="datetime" Nullable="false" />
+    <Property Name="Comision" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sobre">
+    <Key>
+      <PropertyRef Name="CodigoSobre" />
+    </Key>
+    <Property Name="CodigoSobre" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoCuenta" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaHoraInicio" Type="datetime" Nullable="false" />
+    <Property Name="Frecuencia" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaHoraFinal" Type="datetime" Nullable="false" />
+    <Property Name="Monto" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SolicitudCita">
+    <Key>
+      <PropertyRef Name="CodigoCita" />
+    </Key>
+    <Property Name="CodigoCita" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoUsuario" Type="int" Nullable="false" />
+    <Property Name="TipoCita" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaHoraCita" Type="datetime" Nullable="false" />
+    <Property Name="Sede" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SolicitudTarjeta">
+    <Key>
+      <PropertyRef Name="CodigoSolicitud" />
+    </Key>
+    <Property Name="CodigoSolicitud" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoUsuario" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="FechaHora" Type="datetime" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Transferencia">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CuentaOrigen" Type="int" Nullable="false" />
+    <Property Name="CuentaDestino" Type="int" Nullable="false" />
+    <Property Name="FechaHora" Type="datetime" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Monto" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Identificacion" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="datetime" Nullable="false" />
+    <Property Name="Estado" Type="char" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Cuenta_Moneda">
+    <End Role="Moneda" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="CodigoMoneda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cuenta_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Error_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Error" Type="Self.Error" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Error">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Estadistica_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Estadistica" Type="Self.Estadistica" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Estadistica">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Marchamo_Moneda1">
+    <End Role="Moneda" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="Marchamo" Type="Self.Marchamo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Marchamo">
+        <PropertyRef Name="CodigoMoneda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Marchamo_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Marchamo" Type="Self.Marchamo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Marchamo">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pago_Servicio">
+    <End Role="Servicio" Type="Self.Servicio" Multiplicity="1" />
+    <End Role="Pago" Type="Self.Pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Servicio">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Pago">
+        <PropertyRef Name="CodigoServicio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Prestamo_Moneda1">
+    <End Role="Moneda" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="Prestamo" Type="Self.Prestamo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Prestamo">
+        <PropertyRef Name="CodigoMoneda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Prestamo_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Prestamo" Type="Self.Prestamo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Prestamo">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sesion_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Sesion" Type="Self.Sesion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Sesion">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SinpeMovil_Moneda1">
+    <End Role="Moneda" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="SinpeMovil" Type="Self.SinpeMovil" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="SinpeMovil">
+        <PropertyRef Name="CodigoMoneda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SinpeMovil_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="SinpeMovil" Type="Self.SinpeMovil" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="SinpeMovil">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SolicitudCita_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="SolicitudCita" Type="Self.SolicitudCita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="SolicitudCita">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SolicitudTarjeta_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="SolicitudTarjeta" Type="Self.SolicitudTarjeta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="SolicitudTarjeta">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="INTERNET_BANKING_DW1_3C2021ModelStoreContainer">
+    <EntitySet Name="Cuenta" EntityType="Self.Cuenta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Error" EntityType="Self.Error" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Estadistica" EntityType="Self.Estadistica" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FondoInversion" EntityType="Self.FondoInversion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Marchamo" EntityType="Self.Marchamo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Moneda" EntityType="Self.Moneda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pago" EntityType="Self.Pago" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Prestamo" EntityType="Self.Prestamo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reporte" EntityType="Self.Reporte" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Servicio" EntityType="Self.Servicio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sesion" EntityType="Self.Sesion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SinpeMovil" EntityType="Self.SinpeMovil" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sobre" EntityType="Self.Sobre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SolicitudCita" EntityType="Self.SolicitudCita" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SolicitudTarjeta" EntityType="Self.SolicitudTarjeta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transferencia" EntityType="Self.Transferencia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Cuenta_Moneda" Association="Self.FK_Cuenta_Moneda">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cuenta_Usuario" Association="Self.FK_Cuenta_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Error_Usuario" Association="Self.FK_Error_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Error" EntitySet="Error" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Estadistica_Usuario" Association="Self.FK_Estadistica_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Estadistica" EntitySet="Estadistica" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Marchamo_Moneda1" Association="Self.FK_Marchamo_Moneda1">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="Marchamo" EntitySet="Marchamo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Marchamo_Usuario" Association="Self.FK_Marchamo_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Marchamo" EntitySet="Marchamo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pago_Servicio" Association="Self.FK_Pago_Servicio">
+      <End Role="Servicio" EntitySet="Servicio" />
+      <End Role="Pago" EntitySet="Pago" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Prestamo_Moneda1" Association="Self.FK_Prestamo_Moneda1">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="Prestamo" EntitySet="Prestamo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Prestamo_Usuario" Association="Self.FK_Prestamo_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Prestamo" EntitySet="Prestamo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sesion_Usuario" Association="Self.FK_Sesion_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Sesion" EntitySet="Sesion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SinpeMovil_Moneda1" Association="Self.FK_SinpeMovil_Moneda1">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="SinpeMovil" EntitySet="SinpeMovil" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SinpeMovil_Usuario" Association="Self.FK_SinpeMovil_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="SinpeMovil" EntitySet="SinpeMovil" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SolicitudCita_Usuario" Association="Self.FK_SolicitudCita_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="SolicitudCita" EntitySet="SolicitudCita" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SolicitudTarjeta_Usuario" Association="Self.FK_SolicitudTarjeta_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="SolicitudTarjeta" EntitySet="SolicitudTarjeta" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

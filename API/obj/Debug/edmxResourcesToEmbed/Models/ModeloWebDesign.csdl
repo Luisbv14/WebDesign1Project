@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="INTERNET_BANKING_DW1_3C2021Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cuenta">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoUsuario" Type="Int32" Nullable="false" />
+    <Property Name="CodigoMoneda" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IBAN" Type="String" MaxLength="22" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Saldo" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Moneda" Relationship="Self.FK_Cuenta_Moneda" FromRole="Cuenta" ToRole="Moneda" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_Cuenta_Usuario" FromRole="Cuenta" ToRole="Usuario" />
+    <NavigationProperty Name="FondoInversion" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_FondoInversion_Cuenta" FromRole="Cuenta" ToRole="FondoInversion" />
+    <NavigationProperty Name="Pago" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Pago_Cuenta" FromRole="Cuenta" ToRole="Pago" />
+    <NavigationProperty Name="Reporte" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Reporte_Cuenta" FromRole="Cuenta" ToRole="Reporte" />
+    <NavigationProperty Name="Sobre" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Sobre_Cuenta" FromRole="Cuenta" ToRole="Sobre" />
+    <NavigationProperty Name="Transferencia" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Transferencia_Cuenta" FromRole="Cuenta" ToRole="Transferencia" />
+    <NavigationProperty Name="SinpeMovil" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_SinpeMovil_Cuenta" FromRole="Cuenta" ToRole="SinpeMovil" />
+  </EntityType>
+  <EntityType Name="Error">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoUsuario" Type="Int32" Nullable="false" />
+    <Property Name="FechaHora" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Fuente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Numero" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Vista" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Accion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_Error_Usuario" FromRole="Error" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Estadistica">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoUsuario" Type="Int32" Nullable="false" />
+    <Property Name="FechaHora" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PlataformaDispositivo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Navegador" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Vista" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Accion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_Estadistica_Usuario" FromRole="Estadistica" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="FondoInversion">
+    <Key>
+      <PropertyRef Name="CodigoInversion" />
+    </Key>
+    <Property Name="CodigoInversion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoCuenta" Type="Int32" Nullable="false" />
+    <Property Name="Plazo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tasa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Monto" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="FechaHoraInicio" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Cuenta" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_FondoInversion_Cuenta" FromRole="FondoInversion" ToRole="Cuenta" />
+  </EntityType>
+  <EntityType Name="Moneda">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Cuenta" Relationship="Self.FK_Cuenta_Moneda" FromRole="Moneda" ToRole="Cuenta" />
+  </EntityType>
+  <EntityType Name="Pago">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoServicio" Type="Int32" Nullable="false" />
+    <Property Name="CodigoCuenta" Type="Int32" Nullable="false" />
+    <Property Name="FechaHora" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Monto" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Servicio" Relationship="Self.FK_Pago_Servicio" FromRole="Pago" ToRole="Servicio" />
+    <NavigationProperty Name="Cuenta" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Pago_Cuenta" FromRole="Pago" ToRole="Cuenta" />
+  </EntityType>
+  <EntityType Name="Reporte">
+    <Key>
+      <PropertyRef Name="CodigoReporte" />
+    </Key>
+    <Property Name="CodigoReporte" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoCuenta" Type="Int32" Nullable="false" />
+    <Property Name="TipoReporte" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaHora" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Cuenta" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Reporte_Cuenta" FromRole="Reporte" ToRole="Cuenta" />
+  </EntityType>
+  <EntityType Name="Servicio">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Pago" Relationship="Self.FK_Pago_Servicio" FromRole="Servicio" ToRole="Pago" />
+  </EntityType>
+  <EntityType Name="Sesion">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoUsuario" Type="Int32" Nullable="false" />
+    <Property Name="FechaHoraInicio" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaHoraExpiracion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_Sesion_Usuario" FromRole="Sesion" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Sobre">
+    <Key>
+      <PropertyRef Name="CodigoSobre" />
+    </Key>
+    <Property Name="CodigoSobre" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoCuenta" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaHoraInicio" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Frecuencia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaHoraFinal" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Monto" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Cuenta" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Sobre_Cuenta" FromRole="Sobre" ToRole="Cuenta" />
+  </EntityType>
+  <EntityType Name="SolicitudCita">
+    <Key>
+      <PropertyRef Name="CodigoCita" />
+    </Key>
+    <Property Name="CodigoCita" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoUsuario" Type="Int32" Nullable="false" />
+    <Property Name="TipoCita" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaHoraCita" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Sede" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_SolicitudCita_Usuario" FromRole="SolicitudCita" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="SolicitudTarjeta">
+    <Key>
+      <PropertyRef Name="CodigoSolicitud" />
+    </Key>
+    <Property Name="CodigoSolicitud" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoUsuario" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaHora" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_SolicitudTarjeta_Usuario" FromRole="SolicitudTarjeta" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Transferencia">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CuentaOrigen" Type="Int32" Nullable="false" />
+    <Property Name="CuentaDestino" Type="Int32" Nullable="false" />
+    <Property Name="FechaHora" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Monto" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Cuenta" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Transferencia_Cuenta" FromRole="Transferencia" ToRole="Cuenta" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Identificacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Cuenta" Relationship="Self.FK_Cuenta_Usuario" FromRole="Usuario" ToRole="Cuenta" />
+    <NavigationProperty Name="Error" Relationship="Self.FK_Error_Usuario" FromRole="Usuario" ToRole="Error" />
+    <NavigationProperty Name="Estadistica" Relationship="Self.FK_Estadistica_Usuario" FromRole="Usuario" ToRole="Estadistica" />
+    <NavigationProperty Name="Sesion" Relationship="Self.FK_Sesion_Usuario" FromRole="Usuario" ToRole="Sesion" />
+    <NavigationProperty Name="SolicitudCita" Relationship="Self.FK_SolicitudCita_Usuario" FromRole="Usuario" ToRole="SolicitudCita" />
+    <NavigationProperty Name="SolicitudTarjeta" Relationship="Self.FK_SolicitudTarjeta_Usuario" FromRole="Usuario" ToRole="SolicitudTarjeta" />
+    <NavigationProperty Name="Marchamo" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Marchamo_Usuario1" FromRole="Usuario" ToRole="Marchamo" />
+    <NavigationProperty Name="Prestamo" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Prestamo_Usuario" FromRole="Usuario" ToRole="Prestamo" />
+  </EntityType>
+  <Association Name="FK_Cuenta_Moneda">
+    <End Role="Moneda" Type="Self.Moneda" Multiplicity="1" />
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moneda">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="CodigoMoneda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cuenta_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Cuenta" Type="Self.Cuenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Cuenta">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Error_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Error" Type="Self.Error" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Error">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Estadistica_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Estadistica" Type="Self.Estadistica" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Estadistica">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pago_Servicio">
+    <End Role="Servicio" Type="Self.Servicio" Multiplicity="1" />
+    <End Role="Pago" Type="Self.Pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Servicio">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Pago">
+        <PropertyRef Name="CodigoServicio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sesion_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Sesion" Type="Self.Sesion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Sesion">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SolicitudCita_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="SolicitudCita" Type="Self.SolicitudCita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="SolicitudCita">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SolicitudTarjeta_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="SolicitudTarjeta" Type="Self.SolicitudTarjeta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="SolicitudTarjeta">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="INTERNET_BANKING_DW1_3C2021" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cuenta" EntityType="Self.Cuenta" />
+    <EntitySet Name="Error" EntityType="Self.Error" />
+    <EntitySet Name="Estadistica" EntityType="Self.Estadistica" />
+    <EntitySet Name="FondoInversion" EntityType="Self.FondoInversion" />
+    <EntitySet Name="Moneda" EntityType="Self.Moneda" />
+    <EntitySet Name="Pago" EntityType="Self.Pago" />
+    <EntitySet Name="Reporte" EntityType="Self.Reporte" />
+    <EntitySet Name="Servicio" EntityType="Self.Servicio" />
+    <EntitySet Name="Sesion" EntityType="Self.Sesion" />
+    <EntitySet Name="Sobre" EntityType="Self.Sobre" />
+    <EntitySet Name="SolicitudCita" EntityType="Self.SolicitudCita" />
+    <EntitySet Name="SolicitudTarjeta" EntityType="Self.SolicitudTarjeta" />
+    <EntitySet Name="Transferencia" EntityType="Self.Transferencia" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+    <AssociationSet Name="FK_Cuenta_Moneda" Association="Self.FK_Cuenta_Moneda">
+      <End Role="Moneda" EntitySet="Moneda" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cuenta_Usuario" Association="Self.FK_Cuenta_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Cuenta" EntitySet="Cuenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Error_Usuario" Association="Self.FK_Error_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Error" EntitySet="Error" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Estadistica_Usuario" Association="Self.FK_Estadistica_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Estadistica" EntitySet="Estadistica" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pago_Servicio" Association="Self.FK_Pago_Servicio">
+      <End Role="Servicio" EntitySet="Servicio" />
+      <End Role="Pago" EntitySet="Pago" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sesion_Usuario" Association="Self.FK_Sesion_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Sesion" EntitySet="Sesion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SolicitudCita_Usuario" Association="Self.FK_SolicitudCita_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="SolicitudCita" EntitySet="SolicitudCita" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SolicitudTarjeta_Usuario" Association="Self.FK_SolicitudTarjeta_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="SolicitudTarjeta" EntitySet="SolicitudTarjeta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FondoInversion_Cuenta" Association="INTERNET_BANKING_DW1_3C2021Model.FK_FondoInversion_Cuenta">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="FondoInversion" EntitySet="FondoInversion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pago_Cuenta" Association="INTERNET_BANKING_DW1_3C2021Model.FK_Pago_Cuenta">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="Pago" EntitySet="Pago" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reporte_Cuenta" Association="INTERNET_BANKING_DW1_3C2021Model.FK_Reporte_Cuenta">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="Reporte" EntitySet="Reporte" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sobre_Cuenta" Association="INTERNET_BANKING_DW1_3C2021Model.FK_Sobre_Cuenta">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="Sobre" EntitySet="Sobre" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transferencia_Cuenta" Association="INTERNET_BANKING_DW1_3C2021Model.FK_Transferencia_Cuenta">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="Transferencia" EntitySet="Transferencia" />
+    </AssociationSet>
+    <EntitySet Name="Marchamo" EntityType="INTERNET_BANKING_DW1_3C2021Model.Marchamo" />
+    <EntitySet Name="SinpeMovil" EntityType="INTERNET_BANKING_DW1_3C2021Model.SinpeMovil" />
+    <AssociationSet Name="FK_SinpeMovil_Cuenta" Association="INTERNET_BANKING_DW1_3C2021Model.FK_SinpeMovil_Cuenta">
+      <End Role="Cuenta" EntitySet="Cuenta" />
+      <End Role="SinpeMovil" EntitySet="SinpeMovil" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Marchamo_Usuario1" Association="INTERNET_BANKING_DW1_3C2021Model.FK_Marchamo_Usuario1">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Marchamo" EntitySet="Marchamo" />
+    </AssociationSet>
+    <EntitySet Name="Prestamo" EntityType="INTERNET_BANKING_DW1_3C2021Model.Prestamo" />
+    <AssociationSet Name="FK_Prestamo_Usuario" Association="INTERNET_BANKING_DW1_3C2021Model.FK_Prestamo_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Prestamo" EntitySet="Prestamo" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_FondoInversion_Cuenta">
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Cuenta" Role="Cuenta" Multiplicity="1" />
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.FondoInversion" Role="FondoInversion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="FondoInversion">
+        <PropertyRef Name="CodigoCuenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pago_Cuenta">
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Cuenta" Role="Cuenta" Multiplicity="1" />
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Pago" Role="Pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Pago">
+        <PropertyRef Name="CodigoCuenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reporte_Cuenta">
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Cuenta" Role="Cuenta" Multiplicity="1" />
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Reporte" Role="Reporte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Reporte">
+        <PropertyRef Name="CodigoCuenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sobre_Cuenta">
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Cuenta" Role="Cuenta" Multiplicity="1" />
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Sobre" Role="Sobre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Sobre">
+        <PropertyRef Name="CodigoCuenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transferencia_Cuenta">
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Cuenta" Role="Cuenta" Multiplicity="1" />
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Transferencia" Role="Transferencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Transferencia">
+        <PropertyRef Name="CuentaOrigen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Marchamo">
+    <Key>
+      <PropertyRef Name="CodigoPago" />
+    </Key>
+    <Property Name="CodigoPago" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoUsuario" Type="Int32" Nullable="false" />
+    <Property Name="PlacaVehiculo" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Monto" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="FechaHoraPago" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Usuario" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Marchamo_Usuario1" FromRole="Marchamo" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="SinpeMovil">
+    <Key>
+      <PropertyRef Name="CodigoSinpe" />
+    </Key>
+    <Property Name="CodigoSinpe" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoCuenta" Type="Int32" Nullable="false" />
+    <Property Name="NumeroTelefonoEmisor" Type="String" Nullable="false" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="NumeroTelefonoRemitente" Type="String" Nullable="false" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Monto" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="FechaHora" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Comision" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <NavigationProperty Name="Cuenta" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_SinpeMovil_Cuenta" FromRole="SinpeMovil" ToRole="Cuenta" />
+  </EntityType>
+  <Association Name="FK_SinpeMovil_Cuenta">
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Cuenta" Role="Cuenta" Multiplicity="1" />
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.SinpeMovil" Role="SinpeMovil" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="SinpeMovil">
+        <PropertyRef Name="CodigoCuenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Marchamo_Usuario1">
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Usuario" Role="Usuario" Multiplicity="1" />
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Marchamo" Role="Marchamo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Marchamo">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Prestamo">
+    <Key>
+      <PropertyRef Name="CodigoPrestamo" />
+    </Key>
+    <Property Name="CodigoPrestamo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoUsuario" Type="Int32" Nullable="false" />
+    <Property Name="FechaHora" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Monto" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Plazo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Tasa" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Usuario" Relationship="INTERNET_BANKING_DW1_3C2021Model.FK_Prestamo_Usuario" FromRole="Prestamo" ToRole="Usuario" />
+  </EntityType>
+  <Association Name="FK_Prestamo_Usuario">
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Usuario" Role="Usuario" Multiplicity="1" />
+    <End Type="INTERNET_BANKING_DW1_3C2021Model.Prestamo" Role="Prestamo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="Prestamo">
+        <PropertyRef Name="CodigoUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

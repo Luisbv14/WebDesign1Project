@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="INTERNET_BANKING_DW1_3C2021ModelStoreContainer" CdmEntityContainer="INTERNET_BANKING_DW1_3C2021Entities">
+    <EntitySetMapping Name="Cuenta">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Cuenta">
+        <MappingFragment StoreEntitySet="Cuenta">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CodigoUsuario" ColumnName="CodigoUsuario" />
+          <ScalarProperty Name="CodigoMoneda" ColumnName="CodigoMoneda" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="IBAN" ColumnName="IBAN" />
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Error">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Error">
+        <MappingFragment StoreEntitySet="Error">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CodigoUsuario" ColumnName="CodigoUsuario" />
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="Fuente" ColumnName="Fuente" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Vista" ColumnName="Vista" />
+          <ScalarProperty Name="Accion" ColumnName="Accion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estadistica">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Estadistica">
+        <MappingFragment StoreEntitySet="Estadistica">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CodigoUsuario" ColumnName="CodigoUsuario" />
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="PlataformaDispositivo" ColumnName="PlataformaDispositivo" />
+          <ScalarProperty Name="Navegador" ColumnName="Navegador" />
+          <ScalarProperty Name="Vista" ColumnName="Vista" />
+          <ScalarProperty Name="Accion" ColumnName="Accion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Moneda">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Moneda">
+        <MappingFragment StoreEntitySet="Moneda">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pago">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Pago">
+        <MappingFragment StoreEntitySet="Pago">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CodigoServicio" ColumnName="CodigoServicio" />
+          <ScalarProperty Name="CodigoCuenta" ColumnName="CodigoCuenta" />
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Servicio">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Servicio">
+        <MappingFragment StoreEntitySet="Servicio">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sesion">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Sesion">
+        <MappingFragment StoreEntitySet="Sesion">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CodigoUsuario" ColumnName="CodigoUsuario" />
+          <ScalarProperty Name="FechaHoraInicio" ColumnName="FechaHoraInicio" />
+          <ScalarProperty Name="FechaHoraExpiracion" ColumnName="FechaHoraExpiracion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transferencia">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Transferencia">
+        <MappingFragment StoreEntitySet="Transferencia">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="CuentaOrigen" ColumnName="CuentaOrigen" />
+          <ScalarProperty Name="CuentaDestino" ColumnName="CuentaDestino" />
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+          <ScalarProperty Name="Identificacion" ColumnName="Identificacion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FondoInversion">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.FondoInversion">
+        <MappingFragment StoreEntitySet="FondoInversion">
+          <ScalarProperty Name="FechaHoraInicio" ColumnName="FechaHoraInicio" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Tasa" ColumnName="Tasa" />
+          <ScalarProperty Name="Plazo" ColumnName="Plazo" />
+          <ScalarProperty Name="CodigoCuenta" ColumnName="CodigoCuenta" />
+          <ScalarProperty Name="CodigoInversion" ColumnName="CodigoInversion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marchamo">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Marchamo">
+        <MappingFragment StoreEntitySet="Marchamo">
+          <ScalarProperty Name="FechaHoraPago" ColumnName="FechaHoraPago" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="CodigoMoneda" ColumnName="CodigoMoneda" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="PlacaVehiculo" ColumnName="PlacaVehiculo" />
+          <ScalarProperty Name="CodigoUsuario" ColumnName="CodigoUsuario" />
+          <ScalarProperty Name="CodigoPago" ColumnName="CodigoPago" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Prestamo">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Prestamo">
+        <MappingFragment StoreEntitySet="Prestamo">
+          <ScalarProperty Name="Tasa" ColumnName="Tasa" />
+          <ScalarProperty Name="Plazo" ColumnName="Plazo" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="CodigoMoneda" ColumnName="CodigoMoneda" />
+          <ScalarProperty Name="CodigoUsuario" ColumnName="CodigoUsuario" />
+          <ScalarProperty Name="CodigoPrestamo" ColumnName="CodigoPrestamo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reporte">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Reporte">
+        <MappingFragment StoreEntitySet="Reporte">
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="TipoReporte" ColumnName="TipoReporte" />
+          <ScalarProperty Name="CodigoCuenta" ColumnName="CodigoCuenta" />
+          <ScalarProperty Name="CodigoReporte" ColumnName="CodigoReporte" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SinpeMovil">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.SinpeMovil">
+        <MappingFragment StoreEntitySet="SinpeMovil">
+          <ScalarProperty Name="Comision" ColumnName="Comision" />
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="NumeroTelefonoRemitente" ColumnName="NumeroTelefonoRemitente" />
+          <ScalarProperty Name="NumeroTelefonoEmisor" ColumnName="NumeroTelefonoEmisor" />
+          <ScalarProperty Name="CodigoMoneda" ColumnName="CodigoMoneda" />
+          <ScalarProperty Name="CodigoUsuario" ColumnName="CodigoUsuario" />
+          <ScalarProperty Name="CodigoSinpe" ColumnName="CodigoSinpe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sobre">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.Sobre">
+        <MappingFragment StoreEntitySet="Sobre">
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="FechaHoraFinal" ColumnName="FechaHoraFinal" />
+          <ScalarProperty Name="Frecuencia" ColumnName="Frecuencia" />
+          <ScalarProperty Name="FechaHoraInicio" ColumnName="FechaHoraInicio" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="CodigoCuenta" ColumnName="CodigoCuenta" />
+          <ScalarProperty Name="CodigoSobre" ColumnName="CodigoSobre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SolicitudCita">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.SolicitudCita">
+        <MappingFragment StoreEntitySet="SolicitudCita">
+          <ScalarProperty Name="Sede" ColumnName="Sede" />
+          <ScalarProperty Name="FechaHoraCita" ColumnName="FechaHoraCita" />
+          <ScalarProperty Name="TipoCita" ColumnName="TipoCita" />
+          <ScalarProperty Name="CodigoUsuario" ColumnName="CodigoUsuario" />
+          <ScalarProperty Name="CodigoCita" ColumnName="CodigoCita" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SolicitudTarjeta">
+      <EntityTypeMapping TypeName="INTERNET_BANKING_DW1_3C2021Model.SolicitudTarjeta">
+        <MappingFragment StoreEntitySet="SolicitudTarjeta">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaHora" ColumnName="FechaHora" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="CodigoUsuario" ColumnName="CodigoUsuario" />
+          <ScalarProperty Name="CodigoSolicitud" ColumnName="CodigoSolicitud" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

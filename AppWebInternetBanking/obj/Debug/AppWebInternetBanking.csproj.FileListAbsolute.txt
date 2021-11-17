@@ -1,0 +1,745 @@
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll.config
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.pdb
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe.config
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.rsp
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe.config
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.rsp
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.AppContext.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Console.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Http.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe.config
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.rsp
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\WebGrease.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.pdb
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Razor.resources.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.AssemblyReference.cache
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CoreCompileInputs.cache
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CopyComplete
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.pdb
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Sam\source\repos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csprojAssemblyReference.cache
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CoreCompileInputs.cache
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.AppContext.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Console.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Http.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.ValueTuple.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\WebGrease.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyectos\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CopyComplete
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csprojAssemblyReference.cache
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CoreCompileInputs.cache
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.AppContext.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Console.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Http.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.ValueTuple.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\WebGrease.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\Proyecto\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CopyComplete
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.AppContext.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Console.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Http.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.ValueTuple.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\WebGrease.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csprojAssemblyReference.cache
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CoreCompileInputs.cache
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CopyComplete
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\WebDesign1Project\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll.config
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.pdb
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe.config
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.rsp
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe.config
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.rsp
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.AppContext.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Console.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Http.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.ValueTuple.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe.config
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.rsp
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\WebGrease.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.pdb
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Razor.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Razor.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.AssemblyReference.cache
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CoreCompileInputs.cache
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CopyComplete
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.dll
+C:\Users\Néo\Downloads\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csprojAssemblyReference.cache
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CoreCompileInputs.cache
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.AppContext.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Console.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Http.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.ValueTuple.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.rsp
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\WebGrease.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.pdb
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\Luis Brenes\Desktop\universidad\Diseño web 1\ProyectoFinal\UnionFinal\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CopyComplete
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll.config
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AppWebInternetBanking.pdb
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.exe.config
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csc.rsp
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.exe.config
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\csi.rsp
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.AppContext.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Console.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Http.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Net.Sockets.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.ValueTuple.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.exe.config
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\vbc.rsp
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\WebGrease.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Optimization.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Newtonsoft.Json.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Antlr3.Runtime.pdb
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Razor.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Deployment.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Webpages.Razor.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Helpers.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\System.Web.Mvc.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Optimization.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Optimization.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Razor.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Razor.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Webpages.Razor.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Helpers.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Helpers.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\es\System.Web.Mvc.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\bin\fr\System.Web.Mvc.resources.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.AssemblyReference.cache
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.csproj.CoreCompileInputs.cache
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.dll
+C:\Users\JoseF\OneDrive\Escritorio\AppInternetBankingDW3C2021\AppWebInternetBanking\obj\Debug\AppWebInternetBanking.pdb
