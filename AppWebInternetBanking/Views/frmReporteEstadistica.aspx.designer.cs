@@ -24,51 +24,6 @@ namespace AppWebInternetBanking.Views
         protected global::System.Web.UI.WebControls.GridView gvEstadisticas;
 
         /// <summary>
-        /// Contrôle btn_Exportar_Excel.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btn_Exportar_Excel;
-
-        /// <summary>
-        /// Contrôle btn_Exportar_Word.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btn_Exportar_Word;
-
-        /// <summary>
-        /// Contrôle btn_Exportar_PDF.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btn_Exportar_PDF;
-
-        /// <summary>
-        /// Contrôle btn_Exportar_CSV.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btn_Exportar_CSV;
-
-        /// <summary>
-        /// Contrôle btn_Exportar_Portapapeles.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btn_Exportar_Portapapeles;
-
-        /// <summary>
         /// Contrôle lblStatus.
         /// </summary>
         /// <remarks>
