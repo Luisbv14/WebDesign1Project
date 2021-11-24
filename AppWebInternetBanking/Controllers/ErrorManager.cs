@@ -23,7 +23,7 @@ namespace AppWebInternetBanking.Controllers
             return JsonConvert.DeserializeObject<Error>(await response.Content.ReadAsStringAsync());
         }
 
-        public async Task<IEnumerable<Error>> ObtenerErrores(string token)
+        public async Task<IEnumerable<Error>> ObtenerErrores()
         {
             HttpClient httpClient = new HttpClient();
 
