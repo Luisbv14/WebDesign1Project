@@ -64,16 +64,17 @@ namespace AppWebInternetBanking.Views
                 lblStatus.Visible = true;
             }
         }
-    
+
         //arreglar y terminar este codigo
         protected DateTime isfutureDate(DateTime first, DateTime last)
         {
-            if (first>=last)
+            if (first >= last)
             {
                 lblResultado.Text = "La fecha indicada menor o igual a la inicial";
                 lblResultado.Visible = true;
                 lblResultado.ForeColor = Color.Maroon;
-            } else
+            }
+            else
             {
                 return last;
             }
@@ -81,7 +82,7 @@ namespace AppWebInternetBanking.Views
         }
         protected async void btnAceptarMant_Click(object sender, EventArgs e)
         {
-            if(string.IsNullOrEmpty(txtCodigoMant.Text)) //insertar
+            if (string.IsNullOrEmpty(txtCodigoMant.Text)) //insertar
             {
                 if (!string.IsNullOrEmpty(txtDescripcion.Text) && !string.IsNullOrEmpty(txtMonto.Text))
                 {
@@ -180,7 +181,8 @@ namespace AppWebInternetBanking.Views
                     btnAceptarModal.Visible = false;
                     ScriptManager.RegisterStartupScript(this, this.GetType(), "LaunchServerSide", "$(function() { openModal(); });", true);
                     InicializarControles();
-                    
+
+                    throw new InternalBufferOverflowException();
                 }
             }
             catch (Exception ex)
@@ -353,7 +355,15 @@ namespace AppWebInternetBanking.Views
 
         protected void btn_Exportar_Portapapeles_Click(object sender, EventArgs e)
         {
+            DataObject dataObj = dgv.GetClipboardContent();
+            if (dataObj != null)
+                Clipboard.SetDataObject(dataObj);
 
+            gvSobres.MultiSelect = true;
+            gvSobres.SelectAll();
+            DataObject dataObj = gvSobres.GetClipboardContent();
+            if (dataObj != null)
+                Clipboard.SetDataObject(dataObj);
         }
 
         protected void btn_Exportar_Word_Click(object sender, EventArgs e)

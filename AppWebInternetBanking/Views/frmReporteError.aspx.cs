@@ -34,7 +34,7 @@ namespace AppWebInternetBanking.Views
                 {
                     errores = await errorManager.ObtenerErrores();
                     InicializarControles();
-                    ObtenerDatosGrafico();
+                    ObtenerDatosgrafico();
                 }
             }
         }
