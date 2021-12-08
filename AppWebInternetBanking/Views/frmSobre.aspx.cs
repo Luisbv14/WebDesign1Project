@@ -269,7 +269,8 @@ namespace AppWebInternetBanking.Views
         {
             /* Verifies that the control is rendered */
         }
-
+    
+        /*
         protected void btn_Exportar_Excel_Click(object sender, EventArgs e)
         {
             Response.Clear();
@@ -355,15 +356,7 @@ namespace AppWebInternetBanking.Views
 
         protected void btn_Exportar_Portapapeles_Click(object sender, EventArgs e)
         {
-            DataObject dataObj = dgv.GetClipboardContent();
-            if (dataObj != null)
-                Clipboard.SetDataObject(dataObj);
-
-            gvSobres.MultiSelect = true;
-            gvSobres.SelectAll();
-            DataObject dataObj = gvSobres.GetClipboardContent();
-            if (dataObj != null)
-                Clipboard.SetDataObject(dataObj);
+            
         }
 
         protected void btn_Exportar_Word_Click(object sender, EventArgs e)
@@ -378,7 +371,7 @@ namespace AppWebInternetBanking.Views
             gvSobres.RenderControl(htw);
             Response.Output.Write(sw.ToString());
             Response.End();
-        }
+        } */
 
     }
 

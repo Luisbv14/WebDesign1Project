@@ -106,7 +106,7 @@ namespace AppWebInternetBanking.Views
             }
             else // modificar
             {
-                if(!string.IsNullOrEmpty(txtMonto.Text))
+                if (!string.IsNullOrEmpty(txtMonto.Text))
                 {
                     Prestamo prestamo = new Prestamo()
                     {
@@ -216,7 +216,7 @@ namespace AppWebInternetBanking.Views
             switch (e.CommandName)
             {
                 case "Modificar":
-                    ltrTituloMantenimiento.Text = "Modificar préstamo.";
+                    ltrTituloMantenimiento.Text = "Modificar prestamo.";
                     btnAceptarMant.ControlStyle.CssClass = "btn btn-primary";
                     txtCodigoMant.Text = row.Cells[0].Text.Trim();
                     ddlUsuarios.SelectedValue = row.Cells[1].Text.Trim();
@@ -242,7 +242,9 @@ namespace AppWebInternetBanking.Views
         public override void VerifyRenderingInServerForm(Control control)
         {
             /* Verifies that the control is rendered */
-        }
+        } 
+
+        /*
 
         protected void btn_Exportar_Excel_Click(object sender, EventArgs e)
         {
@@ -345,5 +347,6 @@ namespace AppWebInternetBanking.Views
             Response.Output.Write(sw.ToString());
             Response.End();
         }
+        */
     }
 }

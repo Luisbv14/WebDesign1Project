@@ -28,6 +28,7 @@
     <h1>Bitácora de Errores</h1>
     <div class="container">
         <input id="myInput" placeholder="Buscar" class="form-control" type="text" />
+        <br />
         <asp:GridView ID="gvErrores" runat="server" AutoGenerateColumns="false"
             CssClass="table table-sm" HeaderStyle-CssClass="thead-dark"
             HeaderStyle-BackColor="#243054" HeaderStyle-ForeColor="White"
