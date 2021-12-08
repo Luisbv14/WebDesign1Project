@@ -75,7 +75,7 @@
         <asp:LinkButton type="Button" CssClass="btn btn-info" ID="btnNuevo" runat="server" OnClick="btnNuevo_Click"
             Text="<span aria-hidden='true' class='glyphicon glyphicon-floppy-disk'></span> Nuevo" />
 
-        <!--<asp:LinkButton type="Button" CssClass="btn btn-success" ID="btn_Exportar_Excel" runat="server" OnClick="btn_Exportar_Excel_Click"
+        <asp:LinkButton type="Button" CssClass="btn btn-success" ID="btn_Exportar_Excel" runat="server" OnClick="btn_Exportar_Excel_Click"
             Text="<span aria-hidden='true' class='glyphicon glyphicon-arrow-down'></span> Excel" />
 
         <asp:LinkButton type="Button" CssClass="btn btn-primary" ID="btn_Exportar_Word" runat="server" OnClick="btn_Exportar_Word_Click"
@@ -88,7 +88,7 @@
             Text="<span aria-hidden='true' class='glyphicon glyphicon-arrow-down'></span> CSV" />
 
         <asp:LinkButton type="Button" CssClass="btn btn-warning" ID="btn_Exportar_Portapapeles" runat="server" OnClick="btn_Exportar_Portapapeles_Click"
-            Text="<span aria-hidden='true' class='glyphicon glyphicon-floppy-saved'></span> Portapapeles " /> -->
+            Text="<span aria-hidden='true' class='glyphicon glyphicon-floppy-saved'></span> Portapapeles " /> 
         <br />
         <asp:Label ID="lblStatus" ForeColor="Maroon" runat="server" Visible="false" />
         <asp:Label ID="lblResultado" ForeColor="Maroon" Visible="False" runat="server" />
@@ -183,4 +183,35 @@
             </div>
         </div>
     </div>
+    <br />
+    <br />
+     <div class="row">
+            <div class="col-sm">
+     <div id="canvas-holder" style="width:40%">
+		            <canvas id="vistas-chart"></canvas>
+	            </div>
+              <script >
+                  var barColors = ["#76D7C4", "#F4D03F", "#76D7C4", "#F4D03F", "#76D7C4"];
+
+                  new Chart(document.getElementById("vistas-chart"), {
+                      type: 'bar',
+                      data: {
+                          labels: [<%= this.labelsGrafico %>],
+                          datasets: [{
+                              label: "Pago x Cliente",
+                              backgroundColor: barColors,
+                            data: [<%= this.dataGrafico %>]
+                          }]
+                      },
+                      options: {
+
+                          title: {
+                              display: true,
+                              text: 'Cantidad de pago de marchamo por cliente'
+                          }
+                      }
+                  });
+              </script>
+                </div>
+            </div>
 </asp:Content>
