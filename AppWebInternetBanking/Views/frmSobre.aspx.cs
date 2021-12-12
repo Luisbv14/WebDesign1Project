@@ -29,15 +29,18 @@ namespace AppWebInternetBanking.Views
         public string labelsGrafico = string.Empty;
         public string backgroundcolorsGrafico = string.Empty;
         public string dataGrafico = string.Empty;
-        protected void Page_Load(object sender, EventArgs e)
+        async protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
                 if (Session["CodigoUsuario"] == null)
                     Response.Redirect("~/Login.aspx");
                 else
+                {
+                    sobres = await sobreManager.ObtenerSobres(Session["Token"].ToString());
                     InicializarControles();
-                ObtenerDatosgrafico();
+                    ObtenerDatosgrafico();
+                }
             }
         }
 
@@ -300,7 +303,7 @@ namespace AppWebInternetBanking.Views
         {
             /* Verifies that the control is rendered */
         }
-    
+
         /*
         protected void btn_Exportar_Excel_Click(object sender, EventArgs e)
         {

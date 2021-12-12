@@ -25,15 +25,49 @@ namespace AppWebInternetBanking.Views
         IEnumerable<Usuario> usuarios = new ObservableCollection<Usuario>();
         UsuarioManager usuarioManager = new UsuarioManager();
 
-        protected void Page_Load(object sender, EventArgs e)
+        public string labelsGrafico = string.Empty;
+        public string backgroundcolorsGrafico = string.Empty;
+        public string dataGrafico = string.Empty;
+        async protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
                 if (Session["CodigoUsuario"] == null)
                     Response.Redirect("~/Login.aspx");
                 else
+                {
+                    prestamos = await prestamoManager.ObtenerPrestamos(Session["Token"].ToString());
                     InicializarControles();
+                    ObtenerDatosgrafico();
+                }
             }
+        }
+
+        private void ObtenerDatosgrafico()
+        {
+            StringBuilder labels = new StringBuilder();
+            StringBuilder data = new StringBuilder();
+            StringBuilder backgroundColors = new StringBuilder();
+
+            var random = new Random();
+
+            foreach (var prestamo in prestamos.GroupBy(e => e.CodigoUsuario).
+                Select(group => new
+                {
+                    CodigoUsuario = group.Key,
+                    Cantidad = group.Count()
+                }).OrderBy(x => x.CodigoUsuario))
+            {
+                string color = String.Format("#{0:X6}", random.Next(0x1000000));
+                labels.Append(string.Format("'{0}',", prestamo.CodigoUsuario));
+                data.Append(string.Format("'{0}',", prestamo.Cantidad));
+                backgroundColors.Append(string.Format("'{0}',", color));
+
+                labelsGrafico = labels.ToString().Substring(0, labels.Length - 1);
+                dataGrafico = data.ToString().Substring(0, data.Length - 1);
+                backgroundcolorsGrafico = backgroundColors.ToString().Substring(backgroundColors.Length - 1);
+            }
+
         }
         private async void InicializarControles()
         {
