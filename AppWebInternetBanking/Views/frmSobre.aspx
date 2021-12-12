@@ -41,10 +41,10 @@
                 'aoColumnDefs': [{ 'bSortable': false, 'aTargets': [0] }],
                 'iDisplayLength': 20,
                 buttons: [
-                    { extend: 'copy', text: 'Copy to clipboard', className: 'exportExcel', exportOptions: { modifier: { page: 'all' } } },
-                    { extend: 'excel', text: 'Export to Excel', className: 'exportExcel', filename: 'Sobres_Excel', exportOptions: { modifier: { page: 'all' } } },
-                    { extend: 'csv', text: 'Export to CSV', className: 'exportExcel', filename: 'Sobres_Csv', exportOptions: { modifier: { page: 'all' } } },
-                    { extend: 'pdf', text: 'Export to PDF', className: 'exportExcel', filename: 'Sobres_Pdf', orientation: 'landscape', pageSize: 'LEGAL', exportOptions: { modifier: { page: 'all' }, columns: ':visible' } }
+                    { extend: 'copy', text: 'Copy to clipboard', exportOptions: { modifier: { page: 'all' } } },
+                    { extend: 'excel', text: 'Export to Excel', filename: 'Sobres_Excel', exportOptions: { modifier: { page: 'all' } } },
+                    { extend: 'csv', text: 'Export to CSV', filename: 'Sobres_Csv', exportOptions: { modifier: { page: 'all' } } },
+                    { extend: 'pdf', text: 'Export to PDF', filename: 'Sobres_Pdf', orientation: 'landscape', pageSize: 'LEGAL', exportOptions: { modifier: { page: 'all' }, columns: ':visible' } }
                 ]
             });
         });
@@ -174,6 +174,32 @@
                     <asp:LinkButton type="button" OnClick="btnCancelarMant_Click" CssClass="btn btn-danger" ID="btnCancelarMant" runat="server" Text="<span aria-hidden='true' class='glyphicon glyphicon-remove'></span> Cerrar" />
                 </div>
             </div>
+        </div>
+    </div>
+     <div class="row">
+        <div class="col-sm">
+            <div id="canvas-holder" style="width: 40%">
+                <canvas id="sobres-chart"></canvas>
+            </div>
+            <script>
+                new Chart(document.getElementById("sobres-chart"), {
+                    type: 'bar',
+                    data: {
+                        labels: [<%= this.labelsGrafico %>],
+                        datasets: [{
+                            label: "Sobres por plazos",
+                            backgroundColor: [<%= this.backgroundcolorsGrafico %>],
+        data: [<%= this.dataGrafico %>]
+                        }]
+                    },
+                    options: {
+                        title: {
+                            display: true,
+                            text: 'Cantidad de sobres por cada plazo disponible'
+                        }
+                    }
+                });
+            </script>
         </div>
     </div>
 
