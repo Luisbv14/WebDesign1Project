@@ -75,20 +75,6 @@
         <asp:LinkButton type="Button" CssClass="btn btn-success" ID="btnNuevo" runat="server" OnClick="btnNuevo_Click"
             Text="<span aria-hidden='true' class='glyphicon glyphicon-floppy-disk'></span> Nuevo" />
 
-        <asp:LinkButton type="Button" CssClass="btn btn-success" ID="btn_Exportar_Excel" runat="server" OnClick="btn_Exportar_Excel_Click"
-            Text="<span aria-hidden='true' class='glyphicon glyphicon-arrow-down'></span> Excel" />
-
-        <asp:LinkButton type="Button" CssClass="btn btn-primary" ID="btn_Exportar_Word" runat="server" OnClick="btn_Exportar_Word_Click"
-            Text="<span aria-hidden='true' class='glyphicon glyphicon-arrow-down'></span> Word" />
-
-        <asp:LinkButton type="Button" CssClass="btn btn-danger" ID="btn_Exportar_PDF" runat="server" OnClick="btn_Exportar_PDF_Click"
-            Text="<span aria-hidden='true' class='glyphicon glyphicon-arrow-down'></span> PDF" />
-
-        <asp:LinkButton type="Button" CssClass="btn btn-success" ID="btn_Exportar_CSV" runat="server" OnClick="btn_Exportar_CSV_Click"
-            Text="<span aria-hidden='true' class='glyphicon glyphicon-arrow-down'></span> CSV" />
-
-        <asp:LinkButton type="Button" CssClass="btn btn-warning" ID="btn_Exportar_Portapapeles" runat="server" OnClick="btn_Exportar_Portapapeles_Click"
-            Text="<span aria-hidden='true' class='glyphicon glyphicon-floppy-saved'></span> Portapapeles " />
         <br />
         <asp:Label ID="lblStatus" ForeColor="Maroon" runat="server" Visible="false" />
         <asp:Label ID="lblResultado" ForeColor="Maroon" Visible="False" runat="server" />
@@ -194,4 +180,33 @@
             </div>
         </div>
     </div>
+
+        <div class="row">
+        <div class="col-sm">
+            <div id="canvas-holder" style="width: 40%">
+                <canvas id="vistas-chart"></canvas>
+            </div>
+            <script>
+                var colors = ["#33cc33", "#145214", "#0a290a"]
+                new Chart(document.getElementById("vistas-chart"), {
+                    type: 'pie',
+                    data: {
+                        labels: [<%= this.labelsGrafico %>],
+                        datasets: [{
+                            label: "Cantidad de transferencias con teléfono emisor",
+                            backgroundColor: colors,
+            data: [<%= this.dataGrafico %>]
+                        }]
+                    },
+                    options: {
+                        title: {
+                            display: true,
+                            text: 'Cantidad de transferencias con teléfono emisor'
+                        }
+                    }
+                });
+            </script>
+        </div>
+    </div> 
+
 </asp:Content>

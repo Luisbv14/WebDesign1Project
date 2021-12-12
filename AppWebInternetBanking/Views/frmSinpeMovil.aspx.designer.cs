@@ -33,51 +33,6 @@ namespace AppWebInternetBanking.Views
         protected global::System.Web.UI.WebControls.LinkButton btnNuevo;
 
         /// <summary>
-        /// btn_Exportar_Excel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btn_Exportar_Excel;
-
-        /// <summary>
-        /// btn_Exportar_Word control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btn_Exportar_Word;
-
-        /// <summary>
-        /// btn_Exportar_PDF control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btn_Exportar_PDF;
-
-        /// <summary>
-        /// btn_Exportar_CSV control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btn_Exportar_CSV;
-
-        /// <summary>
-        /// btn_Exportar_Portapapeles control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btn_Exportar_Portapapeles;
-
-        /// <summary>
         /// lblStatus control.
         /// </summary>
         /// <remarks>
