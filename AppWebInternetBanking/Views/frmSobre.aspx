@@ -89,7 +89,8 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        <asp:Literal ID="ltrModalMensaje" runat="server" /></p>
+                        <asp:Literal ID="ltrModalMensaje" runat="server" />
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <asp:LinkButton type="button" CssClass="btn btn-success" ID="btnAceptarModal" OnClick="btnAceptarModal_Click" runat="server" Text="<span aria-hidden='true' class='glyphicon glyphicon-ok'></span> Aceptar" />
@@ -176,20 +177,23 @@
             </div>
         </div>
     </div>
-     <div class="row">
+    <br />
+    <br />
+    <div class="row">
         <div class="col-sm">
             <div id="canvas-holder" style="width: 40%">
                 <canvas id="sobres-chart"></canvas>
             </div>
             <script>
+                var colors = ["#000099", "#33cc33", "#ff0066"];
                 new Chart(document.getElementById("sobres-chart"), {
                     type: 'bar',
                     data: {
                         labels: [<%= this.labelsGrafico %>],
                         datasets: [{
                             label: "Sobres por plazos",
-                            backgroundColor: [<%= this.backgroundcolorsGrafico %>],
-        data: [<%= this.dataGrafico %>]
+                            backgroundColor: colors,
+                            data: [<%= this.dataGrafico %>]
                         }]
                     },
                     options: {

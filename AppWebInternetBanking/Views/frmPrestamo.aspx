@@ -88,7 +88,8 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        <asp:Literal ID="ltrModalMensaje" runat="server" /></p>
+                        <asp:Literal ID="ltrModalMensaje" runat="server" />
+                    </p>
                 </div>
                 <div class="modal-footer">
                     <asp:LinkButton type="button" CssClass="btn btn-success" ID="btnAceptarModal" OnClick="btnAceptarModal_Click" runat="server" Text="<span aria-hidden='true' class='glyphicon glyphicon-ok'></span> Aceptar" />
@@ -166,5 +167,33 @@
             </div>
         </div>
     </div>
-
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-sm">
+            <div id="canvas-holder" style="width: 40%">
+                <canvas id="prestamos-chart"></canvas>
+            </div>
+            <script>
+                var colors = ["#000099", "#33cc33", "#ff0066"];
+                new Chart(document.getElementById("prestamos-chart"), {
+                    type: 'bar',
+                    data: {
+                        labels: [<%= this.labelsGrafico %>],
+                        datasets: [{
+                            label: "Prestamos x clientes",
+                            backgroundColor: colors,
+                            data: [<%= this.dataGrafico %>]
+                        }]
+                    },
+                    options: {
+                        title: {
+                            display: true,
+                            text: 'Cantidad de prestamos por cada cliente registrado'
+                        }
+                    }
+                });
+            </script>
+        </div>
+    </div>
 </asp:Content>
