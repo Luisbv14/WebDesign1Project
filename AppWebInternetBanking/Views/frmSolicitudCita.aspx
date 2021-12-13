@@ -169,6 +169,34 @@
             </div>
         </div>
     </div>
-
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-sm">
+            <div id="canvas-holder" style="width: 40%">
+                <canvas id="solicitudCita-chart"></canvas>
+            </div>
+            <script>
+                var colors = ["#000099", "#33cc33", "#ff0066", "#000099", "#000099", "#000099"]; //cambiar los colores de las barras tiene que ser 1 por cada uno
+                new Chart(document.getElementById("solicitudCita-chart"), {
+                    type: 'bar',
+                    data: {
+                        labels: [<%= this.labelsGrafico %>],
+                        datasets: [{
+                            label: "Cantidad por Cita",
+                            backgroundColor: colors,
+                            data: [<%= this.dataGrafico %>]
+                        }]
+                    },
+                    options: {
+                        title: {
+                            display: true,
+                            text: 'Cantidad de citas por cada tipo'
+                        }
+                    }
+                });
+            </script>
+        </div>
+    </div>
 
 </asp:Content>

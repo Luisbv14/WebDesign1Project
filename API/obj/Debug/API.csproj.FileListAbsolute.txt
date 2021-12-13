@@ -1533,3 +1533,4 @@ C:\Users\HP\Documents\ProyectWebDesign\WebDesign1Project\API\obj\Debug\API.cspro
 C:\Users\HP\Documents\ProyectWebDesign\WebDesign1Project\API\obj\Debug\API.csproj.CopyComplete
 C:\Users\HP\Documents\ProyectWebDesign\WebDesign1Project\API\obj\Debug\API.dll
 C:\Users\HP\Documents\ProyectWebDesign\WebDesign1Project\API\obj\Debug\API.pdb
+C:\Users\JoseF\OneDrive\Documents\GitHub\WebDesign1Project\API\obj\Debug\API.csproj.CopyComplete

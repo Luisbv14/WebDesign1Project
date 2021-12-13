@@ -155,5 +155,34 @@
             </div>
         </div>
     </div>
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-sm">
+            <div id="canvas-holder" style="width: 40%">
+                <canvas id="reporte-chart"></canvas>
+            </div>
+            <script>
+                var colors = ["#000099", "#33cc33", "#ff0066", "#000099", "#000099", "#000099"]; //cambiar los colores de las barras tiene que ser 1 por cada uno
+                new Chart(document.getElementById("reporte-chart"), {
+                    type: 'pie',
+                    data: {
+                        labels: [<%= this.labelsGrafico %>],
+                        datasets: [{
+                            label: "Tipos de Reporte",
+                            backgroundColor: colors,
+                            data: [<%= this.dataGrafico %>]
+                        }]
+                    },
+                    options: {
+                        title: {
+                            display: true,
+                            text: 'Cantidad de reportes por cada tipo'
+                        }
+                    }
+                });
+            </script>
+        </div>
+    </div>
 
 </asp:Content>
