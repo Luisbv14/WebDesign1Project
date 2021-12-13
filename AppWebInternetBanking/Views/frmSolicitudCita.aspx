@@ -177,7 +177,7 @@
                 <canvas id="solicitudCita-chart"></canvas>
             </div>
             <script>
-                var colors = ["#000099", "#33cc33", "#ff0066", "#000099", "#000099", "#000099"]; //cambiar los colores de las barras tiene que ser 1 por cada uno
+                var colors = ["#ffff00", "#0066ff", "#00cc00", "#ff3300", "#cc0099", "#ff6600", "#cc33ff", "#cc3300"]; //cambiar los colores de las barras tiene que ser 1 por cada uno
                 new Chart(document.getElementById("solicitudCita-chart"), {
                     type: 'bar',
                     data: {

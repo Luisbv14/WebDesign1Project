@@ -163,7 +163,7 @@
                 <canvas id="reporte-chart"></canvas>
             </div>
             <script>
-                var colors = ["#000099", "#33cc33", "#ff0066", "#000099", "#000099", "#000099"]; //cambiar los colores de las barras tiene que ser 1 por cada uno
+                var colors = ["#ffff00", "#0066ff", "#00cc00"]; //cambiar los colores de las barras tiene que ser 1 por cada uno
                 new Chart(document.getElementById("reporte-chart"), {
                     type: 'pie',
                     data: {

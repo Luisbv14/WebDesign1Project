@@ -187,7 +187,7 @@
                 <canvas id="vistas-chart"></canvas>
             </div>
             <script>
-                var colors = ["#33cc33", "#145214", "#0a290a"]
+                var colors = ["#cc3399", "#00cc00", "#ff661a", "#0066ff", "#ff0000", "##ff9999"]
                 new Chart(document.getElementById("vistas-chart"), {
                     type: 'pie',
                     data: {
