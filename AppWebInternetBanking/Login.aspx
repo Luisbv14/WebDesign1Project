@@ -12,7 +12,7 @@
 		}
 
 		body {
-			background: #f2f2f2;
+			background: #bfbfbf;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -20,11 +20,16 @@
 			font-family: 'Montserrat', sans-serif;
 			height: 100vh;
 			margin: -20px 0 50px;
+			background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a");
+			background-repeat: no-repeat;
+			background-size: cover;
 		}
 
 		h1 {
 			font-weight: bold;
 			margin: 0;
+			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			color: #1a8cff;
 		}
 
 		p {
@@ -144,8 +149,12 @@
 		}
 
 		.overlay-panel img {
-			width: 300px;
-			height: 300px;
+			width: 400px;
+			height: 500px;
+		}
+
+		.deco-button {
+			background-color: #99ccff
 		}
 
 		.hover-button:hover {
@@ -174,7 +183,12 @@
 		<div class="form-container log-in-container">
 			<form class="modal-content animate" runat="server">
 
+				<br />
+
+				<h1>Internet Banking</h1>
+				<br />
 				<h1>Log-In</h1>
+				<br />
 
 				<asp:TextBox ID="txtUsername" runat="server" placeholder="Ingrese su nombre de usuario"></asp:TextBox>
 				<asp:RequiredFieldValidator ID="rfqvUsername" runat="server" ErrorMessage="El nombre de usuario es requerido"
@@ -185,20 +199,20 @@
 				<asp:RequiredFieldValidator ID="rfqvPassword" runat="server" ErrorMessage="El password es requerido"
 				ControlToValidate="txtPassword" ForeColor="Maroon"></asp:RequiredFieldValidator>
 
-				<asp:Label ID="lblStatus" runat="server" Text="" ForeColor="Maroon"></asp:Label>
->
+				<asp:Label ID="lblStatus" runat="server" ForeColor="Maroon"></asp:Label>
 
-				<asp:Button ID="Button1" runat="server" Text="Aceptar" CssClass="hover-button" OnClick="btnAceptar_Click"/>
-				<input type="reset" value="Limpiar" class="hover-button" />
+				<asp:Button ID="Button1" runat="server" Text="Aceptar" CssClass="deco-button hover-button" OnClick="btnAceptar_Click"/>
+				<input type="reset" value="Limpiar" class="deco-button hover-button" />
 				<asp:HyperLink CssClass="hover-register" ID="HyperLink2" runat="server" NavigateUrl="~/Registro.aspx">Registrarme</asp:HyperLink>
 
+			
 			</form>
 		</div>
 		<div class="overlay-container">
 			<div class="overlay">
 				<div class="overlay-panel overlay-right">
-					<h1>Internet Banking</h1>
-					<img src="https://www.pngarts.com/files/6/Vector-Bank-Transparent.png" />
+					
+					<img src="https://media.istockphoto.com/photos/bank-sign-on-a-modern-glass-building-3d-render-picture-id1277143096?b=1&k=20&m=1277143096&s=170667a&w=0&h=Qg2AnbyWuMLK8NKM52I6MsVBtv6GBwPXTcCRKEZ2IfM=" />
 				</div>
 			</div>
 		</div>
